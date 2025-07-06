@@ -18,9 +18,7 @@ jobs:
       matrix:
         build_type: ['Debug', 'Release']
         config:
-          - { name: '🍏 macOS Clang', os: macos-latest }
           - { name: '🐧 Linux GCC', os: ubuntu-22.04 }
-          - { name: '🪟 Windows MSVC', os: windows-latest }
 
     name: 🛠 Build / ${{ matrix.config.name }} (${{ matrix.build_type }})
     runs-on: ${{ matrix.config.os }}
@@ -43,21 +41,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ccache ninja-build pkg-config libluajit-5.1-2 libluajit-5.1-dev libluajit-5.1-common luajit linux-libc-dev
 
-      - name: Install Dependencies (Windows)
-        if: matrix.config.os == 'windows-latest'
-        run: |
-          choco upgrade ccache ninja pkgconfiglite -y
-
-      - name: Setup MSVC (Windows)
-        if: matrix.config.os == 'windows-latest'
-        uses: ilammy/msvc-dev-cmd@v1
-
-      - name: ccache
-        uses: hendrikmuhs/ccache-action@v1.2
-        with:
-          max-size: '10G'
-          key: ${{ matrix.config.os }}-${{ matrix.build_type }}
-
       - name: Setup Vcpkg
         uses: lukka/run-vcpkg@v11
         with:
@@ -79,12 +62,6 @@ jobs:
           -G "Ninja"
           -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
           --install-prefix ${{ github.workspace }}/install-${{ matrix.build_type }}
-          .
-      
-      - name: Copy luajit lib (Windows)
-        if: matrix.config.os == 'windows-latest'
-        run: Copy-Item "${{ github.workspace }}\lua51.lib" -Destination "${{ github.workspace }}\GDExtension-build\lua51.lib"
-
 
       - name: Build
         run: cmake --build GDExtension-build
