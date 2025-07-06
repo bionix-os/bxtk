@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PathMetadataFlags(Int) from Int to Int {
 	var none = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ModeFlags(Int) from Int to Int {
 	var read = 1;

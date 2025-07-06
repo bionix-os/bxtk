@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AxisStretchMode(Int) from Int to Int {
 	var stretch = 0;

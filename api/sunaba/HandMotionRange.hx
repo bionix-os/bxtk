@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract HandMotionRange(Int) from Int to Int {
 	var unobstructed = 0;

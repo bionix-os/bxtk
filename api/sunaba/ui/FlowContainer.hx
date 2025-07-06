@@ -1,4 +1,4 @@
-package sunaba.ui;
+package bxtk.ui;
 
 @:native("FlowContainer")
 extern class FlowContainer extends Container {
@@ -13,7 +13,7 @@ extern class FlowContainer extends Container {
 
 abstract FlowContainerAbstract(FlowContainer) from FlowContainer to FlowContainer {
     @:from
-    public static function fromElement(element: sunaba.core.Element): FlowContainerAbstract {
+    public static function fromElement(element: bxtk.core.Element): FlowContainerAbstract {
         var container = FlowContainer.toFlowContainer(element);
         if (container.isNull()) {
             return null;

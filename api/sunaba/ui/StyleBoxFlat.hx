@@ -1,6 +1,6 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Vector2;
+import bxtk.core.Vector2;
 
 @:native("StyleBoxFlat")
 extern class StyleBoxFlat extends StyleBox {
@@ -48,4 +48,4 @@ abstract StyleBoxFlatAbstract(StyleBoxFlat) from StyleBoxFlat to StyleBoxFlat {
         }
         return styleBoxFlat;
     }
-} // end package sunaba.ui
+} // end package bxtk.ui

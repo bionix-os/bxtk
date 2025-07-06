@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DrawFlags(Int) from Int to Int {
 	var transparent = 0;

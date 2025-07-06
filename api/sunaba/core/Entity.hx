@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("Entity")
 extern class Entity extends BaseObject {

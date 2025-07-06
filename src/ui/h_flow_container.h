@@ -10,9 +10,9 @@
 #include "flow_container.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindHFlowContainer(sol::state &lua);
 
     class HFlowContainer;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to HFlowContainerProxy
             }
         public:
-            sunaba::ui::HFlowContainer* element = nullptr;
+            bxtk::ui::HFlowContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

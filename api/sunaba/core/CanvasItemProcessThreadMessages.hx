@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract CanvasItemProcessThreadMessages(Int) from Int to Int {
 	var messages = 1;

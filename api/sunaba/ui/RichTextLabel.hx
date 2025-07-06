@@ -1,14 +1,14 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.ArrayList;
-import sunaba.core.Variant;
-import sunaba.core.Rect2;
-import sunaba.core.Color;
-import sunaba.core.Vector2i;
-import sunaba.core.Vector2;
-import sunaba.desktop.PopupMenu;
-import sunaba.core.Dictionary;
-import sunaba.core.Font;
+import bxtk.core.ArrayList;
+import bxtk.core.Variant;
+import bxtk.core.Rect2;
+import bxtk.core.Color;
+import bxtk.core.Vector2i;
+import bxtk.core.Vector2;
+import bxtk.desktop.PopupMenu;
+import bxtk.core.Dictionary;
+import bxtk.core.Font;
 
 @:native("PanelContainer")
 extern class RichTextLabel extends Control {
@@ -41,11 +41,11 @@ extern class RichTextLabel extends Control {
     public var visibleCharacters: Int;
     public var visibleCharactersBehavior: Int;
     public var visibleRatio: Float;
-    public var finished: sunaba.core.Event;
-    public var metaClicked: sunaba.core.Event;
-    public var metaHoverEnded: sunaba.core.Event;
-    public var metaHoverStarted: sunaba.core.Event;
-    public function addImage(image: sunaba.core.Texture2D, ?width: Int, ?height: Int, ?color: Color, ?inlineAlign: Int, ?region: Rect2, ?key: Variant, ?pad: Bool, ?tooltip: String, ?sizeInPercent: Bool ): Void;
+    public var finished: bxtk.core.Event;
+    public var metaClicked: bxtk.core.Event;
+    public var metaHoverEnded: bxtk.core.Event;
+    public var metaHoverStarted: bxtk.core.Event;
+    public function addImage(image: bxtk.core.Texture2D, ?width: Int, ?height: Int, ?color: Color, ?inlineAlign: Int, ?region: Rect2, ?key: Variant, ?pad: Bool, ?tooltip: String, ?sizeInPercent: Bool ): Void;
     public function addText(text: String): Void;
     public function appendText(bbcode: String): Void;
     public function clear(): Void;
@@ -113,15 +113,15 @@ extern class RichTextLabel extends Control {
     public function setCellBorderColor(color: Color): Void;
     public function setCellSizeOverride(minSize: Vector2, maxSize: Vector2): Void;
     public function setTableColumnExpand(column: Int, expand: Bool, ?ratio: Int, ?shrink: Bool): Void;
-    public function updateImage(key: Variant, mask: Int, image: sunaba.core.Texture2D, ?width: Int, ?height: Int, ?color: Color, ?inlineAlign: Int, ?region: Rect2, ?pad: Bool, ?tooltip: String, ?sizeInPercent: Bool): Void;
+    public function updateImage(key: Variant, mask: Int, image: bxtk.core.Texture2D, ?width: Int, ?height: Int, ?color: Color, ?inlineAlign: Int, ?region: Rect2, ?pad: Bool, ?tooltip: String, ?sizeInPercent: Bool): Void;
     @:native("cast")
-    public static function toRichTextLabel(obj: Dynamic): sunaba.ui.RichTextLabel;
+    public static function toRichTextLabel(obj: Dynamic): bxtk.ui.RichTextLabel;
 }
 
 abstract RichTextLabelAbstract(RichTextLabel) from RichTextLabel to RichTextLabel {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.RichTextLabel {
-        var richTextLabel = sunaba.ui.RichTextLabel.toRichTextLabel(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.RichTextLabel {
+        var richTextLabel = bxtk.ui.RichTextLabel.toRichTextLabel(element);
         if (richTextLabel.isNull()) {
             return null;
         }

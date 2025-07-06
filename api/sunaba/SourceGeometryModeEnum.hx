@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SourceGeometryModeEnum(Int) from Int to Int {
 	var rootNodeChildren = 0;

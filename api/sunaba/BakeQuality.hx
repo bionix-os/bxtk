@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BakeQuality(Int) from Int to Int {
 	var low = 0;

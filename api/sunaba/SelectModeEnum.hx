@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SelectModeEnum(Int) from Int to Int {
 	var single = 0;

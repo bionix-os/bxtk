@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract CheckButtonTextOverrunBehavior(Int) from Int to Int {
 	var noTrimming = 0;

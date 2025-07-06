@@ -1,7 +1,7 @@
-package sunaba.spatial.mesh;
+package bxtk.spatial.mesh;
 
-import sunaba.spatial.IGeometryInstance;
-import sunaba.core.Entity;
+import bxtk.spatial.IGeometryInstance;
+import bxtk.core.Entity;
 
 @:native("MeshRenderer")
 extern class MeshRenderer extends IGeometryInstance {

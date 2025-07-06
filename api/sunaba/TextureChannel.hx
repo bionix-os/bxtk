@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TextureChannel(Int) from Int to Int {
 	var red = 0;

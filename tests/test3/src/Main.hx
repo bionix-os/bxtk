@@ -1,10 +1,10 @@
-import sunaba.App;
-import sunaba.core.*;
-import sunaba.spatial.Camera;
-import sunaba.spatial.SpatialTransform;
-import sunaba.spatial.mesh.MeshRenderer;
-import sunaba.spatial.mesh.Box;
-import sunaba.core.SceneManager;
+import bxtk.App;
+import bxtk.core.*;
+import bxtk.spatial.Camera;
+import bxtk.spatial.SpatialTransform;
+import bxtk.spatial.mesh.MeshRenderer;
+import bxtk.spatial.mesh.Box;
+import bxtk.core.SceneManager;
 import RotateComponent;
 
 class Main extends App {

@@ -1,18 +1,18 @@
 #include "shader.h"
 
-void sunaba::core::bindShader(sol::state& lua) {
-    lua.new_usertype<sunaba::core::Shader>("Shader",
+void bxtk::core::bindShader(sol::state& lua) {
+    lua.new_usertype<bxtk::core::Shader>("Shader",
         "new", sol::factories(
-            []() { return new sunaba::core::Shader(); }
+            []() { return new bxtk::core::Shader(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource>(),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource>(),
         "code", sol::property(
-            &sunaba::core::Shader::getCode,
-            &sunaba::core::Shader::setCode
+            &bxtk::core::Shader::getCode,
+            &bxtk::core::Shader::setCode
         ),
-        "defaultTextureParameter", &sunaba::core::Shader::getDefaultTextureParameter,
-        "getMode", &sunaba::core::Shader::getMode,
-        "getShaderUniformList", &sunaba::core::Shader::getShaderUniformList,
+        "defaultTextureParameter", &bxtk::core::Shader::getDefaultTextureParameter,
+        "getMode", &bxtk::core::Shader::getMode,
+        "getShaderUniformList", &bxtk::core::Shader::getShaderUniformList,
         "cast", [](Resource* instance) {
             return new Shader(godot::Object::cast_to<GodotShader>(instance->getResource()));
         }

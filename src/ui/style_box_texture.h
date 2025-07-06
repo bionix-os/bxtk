@@ -11,9 +11,9 @@
 #include "../core/texture2d.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindStyleBoxTexture(sol::state_view& lua);
 
     class StyleBoxTexture : public StyleBox {
@@ -110,11 +110,11 @@ namespace sunaba::ui {
             p_style_box_texture->set_region_rect(region_rect);
         }
 
-        sunaba::core::Texture2D* getTexture() {
-            return new sunaba::core::Texture2D(p_style_box_texture->get_texture().ptr());
+        bxtk::core::Texture2D* getTexture() {
+            return new bxtk::core::Texture2D(p_style_box_texture->get_texture().ptr());
         }
 
-        void setTexture(sunaba::core::Texture2D* texture) {
+        void setTexture(bxtk::core::Texture2D* texture) {
             p_style_box_texture->set_texture(Ref<GodotTexture2D>(texture->getTexture()));
         }
 

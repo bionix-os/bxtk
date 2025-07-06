@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SdfScaleEnum(Int) from Int to Int {
 	var scale100Percent = 0;

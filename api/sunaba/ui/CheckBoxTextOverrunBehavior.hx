@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract CheckBoxTextOverrunBehavior(Int) from Int to Int {
 	var noTrimming = 0;

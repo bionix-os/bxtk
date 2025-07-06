@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract VrsUpdateModeEnum(Int) from Int to Int {
 	var disabled = 0;

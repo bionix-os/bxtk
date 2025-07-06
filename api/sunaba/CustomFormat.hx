@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CustomFormat(Int) from Int to Int {
 	var rgba8Unorm = 0;

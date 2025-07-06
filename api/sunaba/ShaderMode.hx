@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShaderMode(Int) from Int to Int {
 	var spatial = 0;

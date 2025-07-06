@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Monitor(Int) from Int to Int {
 	var timeFps = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LightModeEnum(Int) from Int to Int {
 	var normal = 0;

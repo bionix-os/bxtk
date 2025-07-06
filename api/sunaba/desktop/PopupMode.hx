@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract PopupMode(Int) from Int to Int {
 	var windowed = 0;

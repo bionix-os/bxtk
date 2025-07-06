@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AstcFormat(Int) from Int to Int {
 	var format4x4 = 0;

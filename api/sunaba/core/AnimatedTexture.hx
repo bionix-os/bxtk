@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("AnimatedTexture")
 extern class AnimatedTexture extends Texture2D {

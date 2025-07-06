@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ViewportAnisotropicFiltering(Int) from Int to Int {
 	var disabled = 0;

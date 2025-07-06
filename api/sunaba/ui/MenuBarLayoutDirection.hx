@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract MenuBarLayoutDirection(Int) from Int to Int {
 	var inherited = 0;

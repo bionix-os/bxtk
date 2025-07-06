@@ -1,10 +1,10 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Vector2;
-import sunaba.core.Vector3;
-import sunaba.core.Component;
-import sunaba.core.Vector2;
-import sunaba.core.Vector3;
+import bxtk.core.Vector2;
+import bxtk.core.Vector3;
+import bxtk.core.Component;
+import bxtk.core.Vector2;
+import bxtk.core.Vector3;
 
 @:native("Camera")
 extern class Camera extends Component {
@@ -34,5 +34,5 @@ extern class Camera extends Component {
     public function setOrthagonal(size : Float, zNear : Float, zFar : Float) : Void;
     public function setPerspective(fov : Float, zNear : Float, zFar : Float) : Void;
     public function unprojectPosition(position : Vector3) : Vector2;
-    public static function getFromEntity(entity : sunaba.core.Entity) : Camera;
+    public static function getFromEntity(entity : bxtk.core.Entity) : Camera;
 }

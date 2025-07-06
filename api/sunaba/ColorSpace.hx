@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ColorSpace(Int) from Int to Int {
 	var srgb = 0;

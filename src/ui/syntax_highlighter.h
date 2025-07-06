@@ -10,14 +10,14 @@
 #include "../core/resource.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindSyntaxHighlighter(sol::state &lua);
 
     class TextEdit;
 
-    class SyntaxHighlighter : public sunaba::core::Resource {
+    class SyntaxHighlighter : public bxtk::core::Resource {
     private:
         GodotSyntaxHighlighter* syntax_highlighter = nullptr; // Pointer to the SyntaxHighlighter instance
     public:

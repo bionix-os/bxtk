@@ -12,7 +12,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindTexture2D(sol::state &lua);
 
     class Texture2D : public Texture {

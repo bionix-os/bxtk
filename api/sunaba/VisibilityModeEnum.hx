@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract VisibilityModeEnum(Int) from Int to Int {
 	var always = 0;

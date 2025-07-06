@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SpaceParameter(Int) from Int to Int {
 	var contactRecycleRadius = 0;

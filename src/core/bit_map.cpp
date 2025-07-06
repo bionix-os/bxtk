@@ -1,23 +1,23 @@
 #include "bit_map.h"
 
-void sunaba::core::bindBitMap(sol::state &lua) {
-    lua.new_usertype<sunaba::core::BitMap>("BitMap",
+void bxtk::core::bindBitMap(sol::state &lua) {
+    lua.new_usertype<bxtk::core::BitMap>("BitMap",
         "new", sol::factories(
-            []() { return new sunaba::core::BitMap(); }),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource>(),
-        "convertToImage", &sunaba::core::BitMap::convertToImage,
-        "create", &sunaba::core::BitMap::create,
-        "createFromImageAlpha", &sunaba::core::BitMap::createFromImageAlpha,
-        "getBit", &sunaba::core::BitMap::getBit,
-        "getBitv", &sunaba::core::BitMap::getBitv,
-        "getSize", &sunaba::core::BitMap::getSize,
-        "getTrueBitCount", &sunaba::core::BitMap::getTrueBitCount,
-        "growMask", &sunaba::core::BitMap::growMask,
-        "opaqueToPolygons", &sunaba::core::BitMap::opaqueToPolygons,
-        "resize", &sunaba::core::BitMap::resize,
-        "setBit", &sunaba::core::BitMap::setBit,
-        "setBitRect", &sunaba::core::BitMap::setBitRect,
-        "setBitv", &sunaba::core::BitMap::setBitv,
+            []() { return new bxtk::core::BitMap(); }),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource>(),
+        "convertToImage", &bxtk::core::BitMap::convertToImage,
+        "create", &bxtk::core::BitMap::create,
+        "createFromImageAlpha", &bxtk::core::BitMap::createFromImageAlpha,
+        "getBit", &bxtk::core::BitMap::getBit,
+        "getBitv", &bxtk::core::BitMap::getBitv,
+        "getSize", &bxtk::core::BitMap::getSize,
+        "getTrueBitCount", &bxtk::core::BitMap::getTrueBitCount,
+        "growMask", &bxtk::core::BitMap::growMask,
+        "opaqueToPolygons", &bxtk::core::BitMap::opaqueToPolygons,
+        "resize", &bxtk::core::BitMap::resize,
+        "setBit", &bxtk::core::BitMap::setBit,
+        "setBitRect", &bxtk::core::BitMap::setBitRect,
+        "setBitv", &bxtk::core::BitMap::setBitv,
         "cast", [](Resource* instance) {
             return new BitMap(godot::Object::cast_to<GodotBitMap>(instance->getResource()));
         }

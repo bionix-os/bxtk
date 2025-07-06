@@ -1,12 +1,12 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Vector3;
-import sunaba.core.Transform3D;
-import sunaba.core.Quaternion;
-import sunaba.core.Vector3;
-import sunaba.core.Basis;
-import sunaba.core.Component;
-import sunaba.core.Entity;
+import bxtk.core.Vector3;
+import bxtk.core.Transform3D;
+import bxtk.core.Quaternion;
+import bxtk.core.Vector3;
+import bxtk.core.Basis;
+import bxtk.core.Component;
+import bxtk.core.Entity;
 
 @:native("SpatialTransform")
 extern class SpatialTransform extends Component {

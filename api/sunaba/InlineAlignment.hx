@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract InlineAlignment(Int) from Int to Int {
 	var topTo = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Status(Int) from Int to Int {
 	var disconnected = 0;

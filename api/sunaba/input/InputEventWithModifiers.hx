@@ -1,4 +1,4 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventWithModifiers")
 extern class InputEventWithModifiers extends InputEventFromWindow {
@@ -22,4 +22,4 @@ abstract InputEventWithModifiersAbstract(InputEventWithModifiers) from InputEven
         }
         return inputEventWithModifiers;
     }
-} // end package sunaba.input
+} // end package bxtk.input

@@ -1,7 +1,7 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Texture2D;
-import sunaba.core.Material;
+import bxtk.core.Texture2D;
+import bxtk.core.Material;
 
 @:native("PhysicalSkyMaterial")
 extern class PhysicalSkyMaterial extends Material {
@@ -29,4 +29,4 @@ abstract PhysicalSkyMaterialAbstract(PhysicalSkyMaterial) from PhysicalSkyMateri
         }
         return physicalSkyMaterial;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

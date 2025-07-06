@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract RotationEditModeEnum(Int) from Int to Int {
 	var euler = 0;

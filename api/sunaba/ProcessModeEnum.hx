@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ProcessModeEnum(Int) from Int to Int {
 	var automatic = 0;

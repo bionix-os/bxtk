@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CacheMode(Int) from Int to Int {
 	var ignore = 0;

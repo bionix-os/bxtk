@@ -10,9 +10,9 @@
 #include "split_container.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindVSplitContainer(sol::state &lua);
 
     class VSplitContainer;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to VSplitContainerProxy
             }
         public:
-            sunaba::ui::VSplitContainer* element = nullptr;
+            bxtk::ui::VSplitContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

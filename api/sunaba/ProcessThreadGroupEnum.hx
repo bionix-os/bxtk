@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ProcessThreadGroupEnum(Int) from Int to Int {
 	var inherit = 0;

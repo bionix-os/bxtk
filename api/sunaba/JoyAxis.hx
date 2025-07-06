@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract JoyAxis(Int) from Int to Int {
 	var leftX = 0;

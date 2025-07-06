@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BlendShapeMode(Int) from Int to Int {
 	var normalized = 0;

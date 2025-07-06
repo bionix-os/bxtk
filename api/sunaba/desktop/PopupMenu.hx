@@ -1,12 +1,12 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.core.Event;
-import sunaba.input.InputEvent;
-import sunaba.input.Shortcut;
-import sunaba.core.Texture2D;
-import sunaba.core.Color;
-import sunaba.core.Variant;
-import sunaba.core.Element;
+import bxtk.core.Event;
+import bxtk.input.InputEvent;
+import bxtk.input.Shortcut;
+import bxtk.core.Texture2D;
+import bxtk.core.Color;
+import bxtk.core.Variant;
+import bxtk.core.Element;
 
 @:native("PopupMenu")
 extern class PopupMenu extends Popup {

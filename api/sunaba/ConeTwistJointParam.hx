@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ConeTwistJointParam(Int) from Int to Int {
 	var swingSpan = 0;

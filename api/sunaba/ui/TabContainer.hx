@@ -1,11 +1,11 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Event;
-import sunaba.desktop.Popup;
-import sunaba.core.Texture2D;
-import sunaba.core.Vector2;
-import sunaba.core.Variant;
-import sunaba.core.Element;
+import bxtk.core.Event;
+import bxtk.desktop.Popup;
+import bxtk.core.Texture2D;
+import bxtk.core.Vector2;
+import bxtk.core.Variant;
+import bxtk.core.Element;
 
 @:native("TabContainer")
 extern class TabContainer extends Container {

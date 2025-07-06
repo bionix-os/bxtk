@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 enum abstract DeviceType(Int) from Int to Int {
     var unknown = -1;

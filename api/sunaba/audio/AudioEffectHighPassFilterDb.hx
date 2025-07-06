@@ -1,4 +1,4 @@
-package sunaba..audio;
+package bxtk..audio;
 
 enum abstract AudioEffectHighPassFilterDb(Int) from Int to Int {
 	var filter6Db = 0;

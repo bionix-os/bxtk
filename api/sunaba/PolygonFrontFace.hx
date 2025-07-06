@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PolygonFrontFace(Int) from Int to Int {
 	var clockwise = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CenterOfMassModeEnum(Int) from Int to Int {
 	var auto = 0;

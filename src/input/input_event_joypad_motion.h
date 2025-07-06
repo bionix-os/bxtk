@@ -10,12 +10,12 @@
 #include "input_event.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::input {
+namespace bxtk::input {
     void bindInputEventJoypadMotion(sol::state_view& lua);
 
-    class InputEventJoypadMotion : public sunaba::input::InputEvent {
+    class InputEventJoypadMotion : public bxtk::input::InputEvent {
     private:
         GodotInputEventJoypadMotion* event;
     public:

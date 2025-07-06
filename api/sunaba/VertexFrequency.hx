@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract VertexFrequency(Int) from Int to Int {
 	var vertex = 0;

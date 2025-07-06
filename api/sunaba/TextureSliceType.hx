@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TextureSliceType(Int) from Int to Int {
 	var slice2d = 0;

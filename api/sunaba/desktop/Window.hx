@@ -1,16 +1,16 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.core.Viewport;
-import sunaba.core.Vector2i;
-import sunaba.core.Vector2;
-import sunaba.ui.Theme;
-import sunaba.core.Color;
-import sunaba.core.Event;
-import sunaba.core.Font;
-import sunaba.core.Texture2D;
-import sunaba.ui.StyleBox;
-import sunaba.core.Rect2i;
-import sunaba.core.Element;
+import bxtk.core.Viewport;
+import bxtk.core.Vector2i;
+import bxtk.core.Vector2;
+import bxtk.ui.Theme;
+import bxtk.core.Color;
+import bxtk.core.Event;
+import bxtk.core.Font;
+import bxtk.core.Texture2D;
+import bxtk.ui.StyleBox;
+import bxtk.core.Rect2i;
+import bxtk.core.Element;
 
 @:native("Window")
 extern class Window extends Viewport {
@@ -139,7 +139,7 @@ extern class Window extends Viewport {
 
 abstract WindowAbstract(Window) from Window to Window {
     @:from
-    public static function fromElement(element: sunaba.core.Element): WindowAbstract {
+    public static function fromElement(element: bxtk.core.Element): WindowAbstract {
         var win = Window.toWindow(element);
         if (win.isNull()) {
             return null;

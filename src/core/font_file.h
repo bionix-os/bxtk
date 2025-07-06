@@ -16,9 +16,9 @@
 #include "io/binary_data.h"
 
 using namespace godot;
-using namespace sunaba::core::io;
+using namespace bxtk::core::io;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindFontFile(sol::state &lua);
 
     class FontFile : public Font {

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PlayModeEnum(Int) from Int to Int {
 	var forward = 0;

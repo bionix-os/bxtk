@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract WindowResizeEdge(Int) from Int to Int {
 	var topLeft = 0;

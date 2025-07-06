@@ -14,7 +14,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindShaderMaterial(sol::state_view& lua);
 
     class ShaderMaterial : public Material {

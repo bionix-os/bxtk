@@ -1,4 +1,4 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventAction")
 extern class InputEventAction extends InputEvent {

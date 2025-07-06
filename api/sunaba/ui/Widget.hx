@@ -1,27 +1,27 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.desktop.PopupMenu;
+import bxtk.desktop.PopupMenu;
 import haxe.DynamicAccess;
-import sunaba.core.FontFile;
-import sunaba.core.Texture;
-import sunaba.core.Image;
-import sunaba.core.ImageTexture;
-import sunaba.core.Texture2D;
-import sunaba.core.Color;
-import sunaba.core.Vector2i;
-import sunaba.core.Vector4;
-import sunaba.core.Vector3;
-import sunaba.core.Vector2;
-import sunaba.core.Vector4i;
-import sunaba.core.Vector3i;
-import sunaba.core.Element;
-import sunaba.ui.Control;
-import sunaba.core.Variant;
-import sunaba.core.FontFile;
+import bxtk.core.FontFile;
+import bxtk.core.Texture;
+import bxtk.core.Image;
+import bxtk.core.ImageTexture;
+import bxtk.core.Texture2D;
+import bxtk.core.Color;
+import bxtk.core.Vector2i;
+import bxtk.core.Vector4;
+import bxtk.core.Vector3;
+import bxtk.core.Vector2;
+import bxtk.core.Vector4i;
+import bxtk.core.Vector3i;
+import bxtk.core.Element;
+import bxtk.ui.Control;
+import bxtk.core.Variant;
+import bxtk.core.FontFile;
 import lua.Table;
-import sunaba.core.io.IoManager;
-import sunaba.LayoutPreset;
-import sunaba.LayoutPresetMode;
+import bxtk.core.io.IoManager;
+import bxtk.LayoutPreset;
+import bxtk.LayoutPresetMode;
 import Type;
 
 class Widget {
@@ -360,7 +360,7 @@ class Widget {
                             throw "Invalid Color value for field '" + attributeName + "' in element '" + Type.getClassName(Type.getClass(element)) + "'";
                         }
                     }
-                    else if (getUsertypeName(currentValue) == "sol.sunaba::core::Texture2D") {
+                    else if (getUsertypeName(currentValue) == "sol.bxtk::core::Texture2D") {
                         var image = Image.loadFromFile(io, attributeValue);
                         if (image != null) {
                             var texture = ImageTexture.createFromImage(image);
@@ -375,7 +375,7 @@ class Widget {
                             throw "Failed to load image from file for field '" + attributeName + "' in element '" + Type.getClassName(Type.getClass(element)) + "'";
                         }
                     }
-                    else if (getUsertypeName(currentValue) == "sol.sunaba::core::Texture") {
+                    else if (getUsertypeName(currentValue) == "sol.bxtk::core::Texture") {
                         var image = Image.loadFromFile(io, attributeValue);
                         if (image != null) {
                             var texture = ImageTexture.createFromImage(image);

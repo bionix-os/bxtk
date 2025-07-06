@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FeedDataType(Int) from Int to Int {
 	var noimage = 0;

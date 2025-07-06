@@ -12,10 +12,10 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindGradient(sol::state_view& lua);
 
-    class Gradient : public sunaba::core::Resource {
+    class Gradient : public bxtk::core::Resource {
     private:
         GodotGradient* gradient;
     public:

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BodyAxis(Int) from Int to Int {
 	var linearX = 1;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DisableModeEnum(Int) from Int to Int {
 	var remove = 0;

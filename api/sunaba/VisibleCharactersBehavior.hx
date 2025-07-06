@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract VisibleCharactersBehavior(Int) from Int to Int {
 	var charsBeforeShaping = 0;

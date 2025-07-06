@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract StatusIndicatorProcessThreadGroup(Int) from Int to Int {
 	var inherit = 0;

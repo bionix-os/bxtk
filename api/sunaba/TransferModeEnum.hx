@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TransferModeEnum(Int) from Int to Int {
 	var unreliable = 0;

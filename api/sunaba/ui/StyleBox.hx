@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Resource;
-import sunaba.core.Vector2;
+import bxtk.core.Resource;
+import bxtk.core.Vector2;
 
 @:native("StyleBox")
 extern class StyleBox extends Resource {
@@ -28,4 +28,4 @@ abstract StyleBoxAbstract(StyleBox) from StyleBox to StyleBox {
         }
         return styleBox;
     }
-} // end package sunaba.ui
+} // end package bxtk.ui

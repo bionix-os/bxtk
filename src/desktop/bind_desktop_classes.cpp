@@ -8,7 +8,7 @@
 #include "file_dialog.h"
 #include "status_indicator.h"
 
-namespace sunaba::desktop {
+namespace bxtk::desktop {
     void bindDesktopClasses(sol::state& lua) {
         bindWindow(lua);
         bindPopup(lua);

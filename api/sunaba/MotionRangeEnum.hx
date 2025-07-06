@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract MotionRangeEnum(Int) from Int to Int {
 	var unobstructed = 0;

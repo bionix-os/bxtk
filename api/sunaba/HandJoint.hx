@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract HandJoint(Int) from Int to Int {
 	var palm = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Parameter(Int) from Int to Int {
 	var initialLinearVelocity = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract RenderInfoType(Int) from Int to Int {
 	var visible = 0;

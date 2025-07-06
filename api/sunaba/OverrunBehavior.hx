@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract OverrunBehavior(Int) from Int to Int {
 	var noTrimming = 0;

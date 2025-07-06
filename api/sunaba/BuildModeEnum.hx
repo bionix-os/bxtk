@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BuildModeEnum(Int) from Int to Int {
 	var solids = 0;

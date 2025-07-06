@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Texture2D;
-import sunaba.core.Variant;
+import bxtk.core.Texture2D;
+import bxtk.core.Variant;
 
 @:native("OptionButton")
 extern class OptionButton extends Button {
@@ -9,8 +9,8 @@ extern class OptionButton extends Button {
     public var fitToLongestItem: Bool;
     public var itemCount: Int;
     public var selected: Int;
-    public var itemFocused: sunaba.core.Event;
-    public var itemSelected: sunaba.core.Event;
+    public var itemFocused: bxtk.core.Event;
+    public var itemSelected: bxtk.core.Event;
     public function addIconItem(texture: Texture2D, label: String, ?id: Int): Void;
     public function addItem(label: String, ?id: Int): Void;
     public function addSeparator(?text: String): Void;
@@ -37,13 +37,13 @@ extern class OptionButton extends Button {
     public function setItemTooltip(idx: Int, tooltip: String): Void;
     public function showPopup(): Void;
     @:native("cast")
-    public static function toOptionButton(obj: Dynamic): sunaba.ui.OptionButton;
+    public static function toOptionButton(obj: Dynamic): bxtk.ui.OptionButton;
 }
 
 abstract OptionButtonAbstract(OptionButton) from OptionButton to OptionButton {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.OptionButton {
-        var optionButton = sunaba.ui.OptionButton.toOptionButton(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.OptionButton {
+        var optionButton = bxtk.ui.OptionButton.toOptionButton(element);
         if (optionButton.isNull()) {
             return null;
         }

@@ -12,7 +12,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindFontVariation(sol::state &lua);
 
     class FontVariation : public Font {

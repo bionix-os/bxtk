@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract MouseFilterEnum(Int) from Int to Int {
 	var stop = 0;

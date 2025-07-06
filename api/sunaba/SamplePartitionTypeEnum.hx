@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SamplePartitionTypeEnum(Int) from Int to Int {
 	var convexPartition = 0;

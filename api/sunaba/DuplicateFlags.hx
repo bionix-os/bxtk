@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DuplicateFlags(Int) from Int to Int {
 	var signals = 1;

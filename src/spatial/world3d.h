@@ -13,10 +13,10 @@
 
 using namespace godot;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
     void bindWorld3D(sol::state_view& lua);
 
-    class World3D : public sunaba::core::Resource {
+    class World3D : public bxtk::core::Resource {
     private:
         GodotWorld3D* world = nullptr;
     public:
@@ -46,11 +46,11 @@ namespace sunaba::spatial {
             world->set_camera_attributes(ca->getCameraAttributes());
         }
 
-        sunaba::core::Environment* getEnvironment() {
-            return new sunaba::core::Environment(world->get_environment().ptr());
+        bxtk::core::Environment* getEnvironment() {
+            return new bxtk::core::Environment(world->get_environment().ptr());
         }
 
-        void setEnvironment(sunaba::core::Environment* env) {
+        void setEnvironment(bxtk::core::Environment* env) {
             world->set_environment(env->getEnvironment());
         }
     };

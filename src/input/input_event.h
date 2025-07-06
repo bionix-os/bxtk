@@ -11,12 +11,12 @@
 #include "../core/convert_godot_lua.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::input {
+namespace bxtk::input {
     void bindInputEvent(sol::state_view& lua);
 
-    class InputEvent : public sunaba::core::Resource {
+    class InputEvent : public bxtk::core::Resource {
     private:
         GodotInputEvent* event;
     public:

@@ -1,10 +1,10 @@
 package;
 
-import sunaba.input.InputEvent;
-import sunaba.App;
-import sunaba.core.Scene;
-import sunaba.core.SceneManager;
-import sunaba.core.Entity;
+import bxtk.input.InputEvent;
+import bxtk.App;
+import bxtk.core.Scene;
+import bxtk.core.SceneManager;
+import bxtk.core.Entity;
 
 class Main extends App{
     public static function main() {

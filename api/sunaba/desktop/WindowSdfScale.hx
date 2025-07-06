@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract WindowSdfScale(Int) from Int to Int {
 	var scale100Percent = 0;

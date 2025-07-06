@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract StretchModeEnum(Int) from Int to Int {
 	var scale = 0;

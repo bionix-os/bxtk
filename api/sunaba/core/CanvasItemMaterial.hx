@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("CanvasItemMaterial")
 extern class CanvasItemMaterial extends Material {
@@ -21,4 +21,4 @@ abstract CanvasItemMaterialAbstract(CanvasItemMaterial) from CanvasItemMaterial 
         }
         return canvasItemMaterial;
     } 
-} // end package sunaba.core
+} // end package bxtk.core

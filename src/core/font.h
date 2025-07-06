@@ -12,7 +12,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindFont(sol::state &lua);
 
     class Font : public Resource {

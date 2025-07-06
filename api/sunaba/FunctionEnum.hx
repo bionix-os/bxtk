@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FunctionEnum(Int) from Int to Int {
 	var normalize = 0;

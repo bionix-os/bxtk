@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract NoiseTypeEnum(Int) from Int to Int {
 	var simplex = 0;

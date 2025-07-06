@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LookupResultType(Int) from Int to Int {
 	var scriptLocation = 0;

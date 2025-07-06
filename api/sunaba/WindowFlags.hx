@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract WindowFlags(Int) from Int to Int {
 	var resizeDisabled = 0;

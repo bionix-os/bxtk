@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DataFormat(Int) from Int to Int {
 	var r4g4UnormPack8 = 0;

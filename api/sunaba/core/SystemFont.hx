@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("SystemFont")
 extern class SystemFont extends Font {

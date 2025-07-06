@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract ViewportAutoTranslateMode(Int) from Int to Int {
 	var inherit = 0;

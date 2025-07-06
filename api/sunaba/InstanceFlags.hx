@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract InstanceFlags(Int) from Int to Int {
 	var useBakedLight = 0;

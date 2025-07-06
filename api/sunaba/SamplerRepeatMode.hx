@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SamplerRepeatMode(Int) from Int to Int {
 	var repeat = 0;

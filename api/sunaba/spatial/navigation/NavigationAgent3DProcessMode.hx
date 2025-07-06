@@ -1,4 +1,4 @@
-package sunaba..spatial.navigation;
+package bxtk..spatial.navigation;
 
 enum abstract NavigationAgent3DProcessMode(Int) from Int to Int {
 	var inherit = 0;

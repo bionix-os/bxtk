@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Orientation(Int) from Int to Int {
 	var horizontal = 0;

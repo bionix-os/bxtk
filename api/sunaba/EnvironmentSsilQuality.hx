@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract EnvironmentSsilQuality(Int) from Int to Int {
 	var veryLow = 0;

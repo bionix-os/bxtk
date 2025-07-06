@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Resource;
-import sunaba.core.Event;
+import bxtk.core.Resource;
+import bxtk.core.Event;
 
 @:native("ButtonGroup")
 extern class ButtonGroup extends Resource {

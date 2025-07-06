@@ -1,6 +1,6 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.core.io.BinaryData;
+import bxtk.core.io.BinaryData;
 
 @:native("FontFile")
 extern class FontFile extends Font {

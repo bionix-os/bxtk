@@ -1,11 +1,11 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventFromWindow")
 extern class InputEventFromWindow extends InputEvent {
     public var windowId: Int;
     @:native("cast")
     public static function castFrom(res: Dynamic): InputEventFromWindow;
-} // end package sunaba.input
+} // end package bxtk.input
 
 abstract InputEventFromWindowAbstract(InputEventFromWindow) from InputEventFromWindow to InputEventFromWindow {
     @:from

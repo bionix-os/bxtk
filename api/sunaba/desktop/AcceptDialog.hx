@@ -1,10 +1,10 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.ui.LineEdit;
-import sunaba.ui.Label;
-import sunaba.ui.Button;
-import sunaba.core.Event;
-import sunaba.core.Element;
+import bxtk.ui.LineEdit;
+import bxtk.ui.Label;
+import bxtk.ui.Button;
+import bxtk.core.Event;
+import bxtk.core.Element;
 
 @:native("AcceptDialog")
 extern class AcceptDialog extends Window {

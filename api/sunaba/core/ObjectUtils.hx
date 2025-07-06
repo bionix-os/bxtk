@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 import Type;
 
 class ObjectUtils {

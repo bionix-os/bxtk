@@ -14,9 +14,9 @@
 #include "../desktop/popup_menu.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindOptionButton(sol::state& lua);
 
     class OptionButton;
@@ -28,7 +28,7 @@ namespace sunaba::ui {
                 // Binding methods for OptionButtonProxy
             }
         public:
-            sunaba::ui::OptionButton* element = nullptr;
+            bxtk::ui::OptionButton* element = nullptr;
 
             void _enter_tree() override;
             void _exit_tree() override;
@@ -68,7 +68,7 @@ namespace sunaba::ui {
         protected:
             static void _bind_methods();
         public:
-            sunaba::ui::OptionButton* element = nullptr;
+            bxtk::ui::OptionButton* element = nullptr;
 
             OptionButtonSignalWrapper() = default;
             ~OptionButtonSignalWrapper() = default;
@@ -77,7 +77,7 @@ namespace sunaba::ui {
             void item_selected(int index);
     };
 
-    class OptionButton : public sunaba::ui::Button {
+    class OptionButton : public bxtk::ui::Button {
         private:
             OptionButtonNode* optionButton = nullptr;
 
@@ -192,7 +192,7 @@ namespace sunaba::ui {
                 itemSelectedEvent = event;
             }
 
-            void addIconItem(sunaba::core::Texture2D* texture, std::string label, int32_t id = -1) {
+            void addIconItem(bxtk::core::Texture2D* texture, std::string label, int32_t id = -1) {
                 Ref<godot::Texture2D> textureRef = Ref<godot::Texture2D>(texture->getTexture());
                 optionButton->add_icon_item(textureRef, String(label.c_str()), id);
             }
@@ -209,8 +209,8 @@ namespace sunaba::ui {
                 optionButton->clear();
             }
 
-            sunaba::core::Texture2D* getItemIcon(int32_t p_idx) const {
-                return new sunaba::core::Texture2D(optionButton->get_item_icon(p_idx).ptr());
+            bxtk::core::Texture2D* getItemIcon(int32_t p_idx) const {
+                return new bxtk::core::Texture2D(optionButton->get_item_icon(p_idx).ptr());
             }
 
             int getItemId(int32_t p_idx) const {
@@ -233,8 +233,8 @@ namespace sunaba::ui {
                 return String(optionButton->get_item_tooltip(p_idx)).utf8().get_data();
             }
 
-            sunaba::desktop::PopupMenu* getPopup() const {
-                return new sunaba::desktop::PopupMenu(optionButton->get_popup());
+            bxtk::desktop::PopupMenu* getPopup() const {
+                return new bxtk::desktop::PopupMenu(optionButton->get_popup());
             }
 
             int getSelectableItem(bool p_from_last = false) const {
@@ -273,7 +273,7 @@ namespace sunaba::ui {
                 optionButton->set_item_disabled(p_idx, p_disabled);
             }
 
-            void setItemIcon(int32_t p_idx, sunaba::core::Texture2D* texture) {
+            void setItemIcon(int32_t p_idx, bxtk::core::Texture2D* texture) {
                 Ref<godot::Texture2D> textureRef = Ref<godot::Texture2D>(texture->getTexture());
                 optionButton->set_item_icon(p_idx, textureRef);
             }

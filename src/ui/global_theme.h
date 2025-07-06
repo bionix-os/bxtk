@@ -3,7 +3,7 @@
 
 #include "theme.h"
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     class uiGlobals {
         private:
             static Theme* globalTheme;

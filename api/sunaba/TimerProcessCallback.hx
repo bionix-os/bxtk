@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TimerProcessCallback(Int) from Int to Int {
 	var physics = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CanvasItemTextureFilter(Int) from Int to Int {
 	var default = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TileShapeEnum(Int) from Int to Int {
 	var square = 0;

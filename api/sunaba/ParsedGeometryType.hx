@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ParsedGeometryType(Int) from Int to Int {
 	var meshInstances = 0;

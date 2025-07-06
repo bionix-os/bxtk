@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TextureSwizzle(Int) from Int to Int {
 	var identity = 0;

@@ -1,8 +1,8 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Color;
-import sunaba.core.Rect2;
-import sunaba.core.Texture2D;
+import bxtk.core.Color;
+import bxtk.core.Rect2;
+import bxtk.core.Texture2D;
 
 @:native("StyleBoxTexture")
 extern class StyleBoxTexture extends StyleBox {
@@ -39,4 +39,4 @@ abstract StyleBoxTextureAbstract(StyleBoxTexture) from StyleBoxTexture to StyleB
         }
         return styleBoxTexture;
     }
-} // end package sunaba.ui
+} // end package bxtk.ui

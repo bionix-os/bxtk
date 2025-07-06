@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("BitMap")
 extern class BitMap extends Resource {

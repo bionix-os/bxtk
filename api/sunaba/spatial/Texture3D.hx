@@ -1,8 +1,8 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Resource;
-import sunaba.core.Texture;
-import sunaba.core.Image;
+import bxtk.core.Resource;
+import bxtk.core.Texture;
+import bxtk.core.Image;
 
 @:native("Texture3D")
 extern class Texture3D extends Texture {
@@ -26,4 +26,4 @@ abstract Texture3DAbstract(Texture3D) from Texture3D to Texture3D {
         }
         return texture;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

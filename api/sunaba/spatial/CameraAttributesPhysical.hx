@@ -1,4 +1,4 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
 @:native("CameraAttributesPhysical")
 extern class CameraAttributesPhysical extends CameraAttributes {
@@ -24,4 +24,4 @@ abstract CameraAttributesPhysicalAbstract(CameraAttributesPhysical) from CameraA
         }
         return cameraAttributesPhysical;
     }
-} // end package sunaba.spatial
+} // end package bxtk.spatial

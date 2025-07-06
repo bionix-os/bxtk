@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SamplerBorderColor(Int) from Int to Int {
 	var floatTransparentBlack = 0;

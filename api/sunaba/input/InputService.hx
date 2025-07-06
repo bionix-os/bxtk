@@ -1,12 +1,12 @@
-package sunaba.input;
+package bxtk.input;
 
-import sunaba.core.Resource;
-import sunaba.core.Vector2;
-import sunaba.core.Dictionary;
-import sunaba.core.Vector;
-import sunaba.core.Vector3;
-import sunaba.core.Event;
-import sunaba.core.Service;
+import bxtk.core.Resource;
+import bxtk.core.Vector2;
+import bxtk.core.Dictionary;
+import bxtk.core.Vector;
+import bxtk.core.Vector3;
+import bxtk.core.Event;
+import bxtk.core.Service;
 
 @:native("InputService")
 extern class InputService extends Service {

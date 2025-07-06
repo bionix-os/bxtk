@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract OriginFromEnum(Int) from Int to Int {
 	var self = 0;

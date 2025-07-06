@@ -14,7 +14,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindSystemFont(sol::state_view& lua);
 
     class SystemFont : public Font {

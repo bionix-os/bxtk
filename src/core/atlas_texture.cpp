@@ -1,26 +1,26 @@
 #include "atlas_texture.h"
 
-void sunaba::core::bindAtlasTexture(sol::state &lua) {
-    lua.new_usertype<sunaba::core::AtlasTexture>("AtlasTexture",
+void bxtk::core::bindAtlasTexture(sol::state &lua) {
+    lua.new_usertype<bxtk::core::AtlasTexture>("AtlasTexture",
         "new", sol::factories(
-            []() { return new sunaba::core::AtlasTexture(); }
+            []() { return new bxtk::core::AtlasTexture(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource, sunaba::core::Texture, sunaba::core::Texture2D>(),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource, bxtk::core::Texture, bxtk::core::Texture2D>(),
         "atlas", sol::property(
-            &sunaba::core::AtlasTexture::getAtlas, 
-            &sunaba::core::AtlasTexture::setAtlas
+            &bxtk::core::AtlasTexture::getAtlas, 
+            &bxtk::core::AtlasTexture::setAtlas
         ),
         "filterClip", sol::property(
-            &sunaba::core::AtlasTexture::getFilterClip, 
-            &sunaba::core::AtlasTexture::setFilterClip
+            &bxtk::core::AtlasTexture::getFilterClip, 
+            &bxtk::core::AtlasTexture::setFilterClip
         ),
         "margin", sol::property(
-            &sunaba::core::AtlasTexture::getMargin, 
-            &sunaba::core::AtlasTexture::setMargin
+            &bxtk::core::AtlasTexture::getMargin, 
+            &bxtk::core::AtlasTexture::setMargin
         ),
         "region", sol::property(
-            &sunaba::core::AtlasTexture::getRegion, 
-            &sunaba::core::AtlasTexture::setRegion
+            &bxtk::core::AtlasTexture::getRegion, 
+            &bxtk::core::AtlasTexture::setRegion
         ),
         "cast", [](Resource* instance) {
             return new AtlasTexture(godot::Object::cast_to<GodotAtlasTexture>(instance->getResource()));

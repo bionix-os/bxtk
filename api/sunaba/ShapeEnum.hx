@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShapeEnum(Int) from Int to Int {
 	var flat = 0;

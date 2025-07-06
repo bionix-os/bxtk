@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LoadStatus(Int) from Int to Int {
 	var ok = 0;

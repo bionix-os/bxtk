@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract StateMachineTypeEnum(Int) from Int to Int {
 	var root = 0;

@@ -11,7 +11,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindPlaceholderTextureLayered(sol::state &lua);
 
     class PlaceholderTextureLayered : public TextureLayered {

@@ -13,9 +13,9 @@
 #include "../ui/line_edit.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::desktop {
+namespace bxtk::desktop {
     void bindAcceptDialog(sol::state& lua);
     
     class AcceptDialog;
@@ -25,7 +25,7 @@ namespace sunaba::desktop {
         protected:
             static void _bind_methods();
         public:
-            sunaba::desktop::AcceptDialog* element = nullptr;
+            bxtk::desktop::AcceptDialog* element = nullptr;
 
             AcceptDialogSignalWrapper() = default;
             ~AcceptDialogSignalWrapper() = default;
@@ -135,27 +135,27 @@ namespace sunaba::desktop {
                 customActionEvent = event;
             }
 
-            sunaba::ui::Button* addButton(std::string text, bool right = false, std::string action = "") {
-                return new sunaba::ui::Button(acceptDialog->add_button(text.c_str(), right, action.c_str()));
+            bxtk::ui::Button* addButton(std::string text, bool right = false, std::string action = "") {
+                return new bxtk::ui::Button(acceptDialog->add_button(text.c_str(), right, action.c_str()));
             }
 
-            sunaba::ui::Button* addCancelButton(std::string name) {
-                return new sunaba::ui::Button(acceptDialog->add_cancel_button(name.c_str()));
+            bxtk::ui::Button* addCancelButton(std::string name) {
+                return new bxtk::ui::Button(acceptDialog->add_cancel_button(name.c_str()));
             }
 
-            sunaba::ui::Label* getLabel() {
-                return new sunaba::ui::Label(acceptDialog->get_label());
+            bxtk::ui::Label* getLabel() {
+                return new bxtk::ui::Label(acceptDialog->get_label());
             }
 
-            sunaba::ui::Button* getOkButton() {
-                return new sunaba::ui::Button(acceptDialog->get_ok_button());
+            bxtk::ui::Button* getOkButton() {
+                return new bxtk::ui::Button(acceptDialog->get_ok_button());
             }
 
-            void registerTextEnter(sunaba::ui::LineEdit* lineEdit) {
+            void registerTextEnter(bxtk::ui::LineEdit* lineEdit) {
                 acceptDialog->register_text_enter(lineEdit->getLineEditNode());
             }
 
-            void removeButton(sunaba::ui::Button* button) {
+            void removeButton(bxtk::ui::Button* button) {
                 acceptDialog->remove_button(button->getButton());
             }
     };

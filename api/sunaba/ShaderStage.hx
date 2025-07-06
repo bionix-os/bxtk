@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShaderStage(Int) from Int to Int {
 	var vertex = 0;

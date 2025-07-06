@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract G6DofJointAxisParam(Int) from Int to Int {
 	var linearLowerLimit = 0;

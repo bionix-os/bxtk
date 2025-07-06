@@ -1,23 +1,23 @@
 #include "translation.h"
 
-void sunaba::core::bindTranslation(sol::state &lua) {
-    lua.new_usertype<sunaba::core::Translation>("Translation",
+void bxtk::core::bindTranslation(sol::state &lua) {
+    lua.new_usertype<bxtk::core::Translation>("Translation",
         "new", sol::factories(
-            []() { return new sunaba::core::Translation(); }
+            []() { return new bxtk::core::Translation(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::Resource>(),
+        sol::base_classes, sol::bases<bxtk::core::Resource>(),
         "locale", sol::property(
-            &sunaba::core::Translation::getLocale,
-            &sunaba::core::Translation::setLocale
+            &bxtk::core::Translation::getLocale,
+            &bxtk::core::Translation::setLocale
         ),
-        "addMessage", &sunaba::core::Translation::addMessage,
-        "addPluralMessage", &sunaba::core::Translation::addPluralMessage,
-        "eraseMessage", &sunaba::core::Translation::eraseMessage,
-        "getMessage", &sunaba::core::Translation::getMessage,
-        "getMessageCount", &sunaba::core::Translation::getMessageCount,
-        "getMessageList", &sunaba::core::Translation::getMessageList,
-        "getPluralMessage", &sunaba::core::Translation::getPluralMessage,
-        "getTranslatedMessageList", &sunaba::core::Translation::getTranslatedMessageList,
+        "addMessage", &bxtk::core::Translation::addMessage,
+        "addPluralMessage", &bxtk::core::Translation::addPluralMessage,
+        "eraseMessage", &bxtk::core::Translation::eraseMessage,
+        "getMessage", &bxtk::core::Translation::getMessage,
+        "getMessageCount", &bxtk::core::Translation::getMessageCount,
+        "getMessageList", &bxtk::core::Translation::getMessageList,
+        "getPluralMessage", &bxtk::core::Translation::getPluralMessage,
+        "getTranslatedMessageList", &bxtk::core::Translation::getTranslatedMessageList,
         "cast", [](Resource* instance) {
             return new Translation(godot::Object::cast_to<GodotTranslation>(instance->getResource()));
         }

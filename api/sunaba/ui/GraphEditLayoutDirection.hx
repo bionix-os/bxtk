@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract GraphEditLayoutDirection(Int) from Int to Int {
 	var inherited = 0;

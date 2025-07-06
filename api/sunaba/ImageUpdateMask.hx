@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ImageUpdateMask(Int) from Int to Int {
 	var texture = 1;

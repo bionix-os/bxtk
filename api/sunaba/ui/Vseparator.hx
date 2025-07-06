@@ -1,15 +1,15 @@
-package sunaba.ui;
+package bxtk.ui;
 
 @:native("Vseparator")
 extern class Vseparator extends Control {
     @:native("cast")
-    public static function toVSeparator(obj: Dynamic): sunaba.ui.Vseparator;
+    public static function toVSeparator(obj: Dynamic): bxtk.ui.Vseparator;
 }
 
 abstract VseparatorAbstract(Vseparator) from Vseparator to Vseparator {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.Vseparator {
-        var vSeparator = sunaba.ui.Vseparator.toVSeparator(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.Vseparator {
+        var vSeparator = bxtk.ui.Vseparator.toVSeparator(element);
         if (vSeparator.isNull()) {
             return null;
         }

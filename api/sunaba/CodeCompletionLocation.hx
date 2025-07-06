@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CodeCompletionLocation(Int) from Int to Int {
 	var local = 0;

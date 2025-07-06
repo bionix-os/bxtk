@@ -13,9 +13,9 @@
 #include "io/io_index.h"
 
 using namespace godot;
-using namespace sunaba::core::io;
+using namespace bxtk::core::io;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindImage(sol::state &lua);
 
     class Image : public Resource {

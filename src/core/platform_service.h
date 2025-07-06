@@ -17,7 +17,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindPlatformService(sol::state& lua);
 
     class PlatformService : public Service {

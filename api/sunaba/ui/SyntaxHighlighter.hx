@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Resource;
-import sunaba.core.Dictionary;
+import bxtk.core.Resource;
+import bxtk.core.Dictionary;
 
 @:native("SyntaxHighlighter")
 extern class SyntaxHighlighter extends Resource {

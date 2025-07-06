@@ -1,7 +1,7 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.ui.StyleBox;
-import sunaba.input.InputEvent;
+import bxtk.ui.StyleBox;
+import bxtk.input.InputEvent;
 
 @:native("Element")
 extern class CanvasItem extends Element {

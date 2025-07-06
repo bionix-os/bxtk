@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract PanelLayoutDirection(Int) from Int to Int {
 	var inherited = 0;

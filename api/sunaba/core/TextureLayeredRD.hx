@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("TextureLayeredRD")
 extern class TextureLayeredRD extends TextureLayered {
@@ -15,4 +15,4 @@ abstract TextureLayeredRDAbstract(TextureLayeredRD) from TextureLayeredRD to Tex
         }
         return textureLayeredRD;
     } 
-} // end package sunaba.core
+} // end package bxtk.core

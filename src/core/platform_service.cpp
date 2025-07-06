@@ -1,7 +1,7 @@
 #include "platform_service.h"
 
-namespace sunaba::core {
-    std::string PlatformService::platformName = "Sunaba";
+namespace bxtk::core {
+    std::string PlatformService::platformName = "BXTK";
     godot::OS* PlatformService::osSingleton = nullptr;
 
     void bindPlatformService(sol::state& lua) {

@@ -1,7 +1,7 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Color;
-import sunaba.core.Material;
+import bxtk.core.Color;
+import bxtk.core.Material;
 
 @:native("FogMaterial")
 extern class FogMaterial extends Material {
@@ -23,4 +23,4 @@ abstract FogMaterialAbstract(FogMaterial) from FogMaterial to FogMaterial {
         }
         return fogMaterial;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

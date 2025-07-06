@@ -1,4 +1,4 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventJoypadMotion")
 extern class InputEventJoypadMotion extends InputEvent {
@@ -17,4 +17,4 @@ abstract InputEventJoypadMotionAbstract(InputEventJoypadMotion) from InputEventJ
         }
         return inputEventJoypadMotion;
     }
-} // end package sunaba.input
+} // end package bxtk.input

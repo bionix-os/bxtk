@@ -1,6 +1,6 @@
-package sunaba.core.io;
+package bxtk.core.io;
 
-import sunaba.core.BaseObject;
+import bxtk.core.BaseObject;
 
 @:native("IoInterface")
 extern class IoInterface extends BaseObject {

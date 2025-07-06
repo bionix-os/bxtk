@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FogVolumeShape(Int) from Int to Int {
 	var ellipsoid = 0;

@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract WorldEnvironmentProcessThreadGroup(Int) from Int to Int {
 	var inherit = 0;

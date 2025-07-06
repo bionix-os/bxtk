@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("SceneManager")
 extern class SceneManager extends Element {

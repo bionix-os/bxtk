@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GltfObjectModelType(Int) from Int to Int {
 	var unknown = 0;

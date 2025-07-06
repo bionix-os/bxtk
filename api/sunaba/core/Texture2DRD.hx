@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("Texture2DRD")
 extern class Texture2DRD extends Texture2D {

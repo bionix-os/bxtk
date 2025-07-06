@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ApiType(Int) from Int to Int {
 	var core = 0;

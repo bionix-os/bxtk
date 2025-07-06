@@ -1,11 +1,11 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.core.Element;
-import sunaba.ui.VboxContainer;
-import sunaba.core.Dictionary;
-import sunaba.ui.LineEdit;
-import sunaba.core.StringArray;
-import sunaba.core.Event;
+import bxtk.core.Element;
+import bxtk.ui.VboxContainer;
+import bxtk.core.Dictionary;
+import bxtk.ui.LineEdit;
+import bxtk.core.StringArray;
+import bxtk.core.Event;
 
 @:native("FileDialog")
 extern class FileDialog extends ConfirmationDialog {

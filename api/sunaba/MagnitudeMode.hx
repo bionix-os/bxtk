@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract MagnitudeMode(Int) from Int to Int {
 	var average = 0;

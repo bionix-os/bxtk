@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SkeletonRigEnum(Int) from Int to Int {
 	var openxr = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BodyParameter(Int) from Int to Int {
 	var bounce = 0;

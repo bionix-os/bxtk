@@ -1,6 +1,6 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.core.Color;
+import bxtk.core.Color;
 
 abstract ColorAbstract(Color) from Color to Color {
     @:op(a.b) public function fieldRead(name:String) {

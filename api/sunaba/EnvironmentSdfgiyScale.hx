@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract EnvironmentSdfgiyScale(Int) from Int to Int {
 	var scale50Percent = 0;

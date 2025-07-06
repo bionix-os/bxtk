@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TextureTypeEnum(Int) from Int to Int {
 	var data = 0;

@@ -10,9 +10,9 @@
 #include "scroll_bar.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindHScrollBar(sol::state& lua);
 
     class HScrollBar;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to HScrollBarProxy
             }
         public:
-            sunaba::ui::HScrollBar* element = nullptr;
+            bxtk::ui::HScrollBar* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance
@@ -52,7 +52,7 @@ namespace sunaba::ui {
             void _value_changed(double value) override;
     };
 
-    class HScrollBar : public sunaba::ui::ScrollBar {
+    class HScrollBar : public bxtk::ui::ScrollBar {
         private:
             HScrollBarNode* hScrollBar = nullptr; // Pointer to the HScrollBar instance
 

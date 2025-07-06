@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract TailDirection(Int) from Int to Int {
 	var averageChildren = 0;

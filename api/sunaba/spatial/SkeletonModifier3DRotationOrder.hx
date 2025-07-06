@@ -1,4 +1,4 @@
-package sunaba..spatial;
+package bxtk..spatial;
 
 enum abstract SkeletonModifier3DRotationOrder(Int) from Int to Int {
 	var xyz = 0;

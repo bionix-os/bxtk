@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Flags(Int) from Int to Int {
 	var resizeDisabled = 0;

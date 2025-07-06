@@ -14,7 +14,7 @@
 
 using namespace godot; 
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindEnvironment(sol::state_view& lua);
 
     class Environment : public Resource {
@@ -47,11 +47,11 @@ namespace sunaba::core {
             environment->set_adjustment_brightness(brightness);
         }
 
-        sunaba::core::Texture* getAdjustmentColorCorrection() {
-            return new sunaba::core::Texture(environment->get_adjustment_color_correction().ptr());
+        bxtk::core::Texture* getAdjustmentColorCorrection() {
+            return new bxtk::core::Texture(environment->get_adjustment_color_correction().ptr());
         }
 
-        void setAdjustmentColorCorrection(sunaba::core::Texture* texture) {
+        void setAdjustmentColorCorrection(bxtk::core::Texture* texture) {
             environment->set_adjustment_color_correction(Ref<GodotTexture>(texture->getTexture()));
         }
 
@@ -511,11 +511,11 @@ namespace sunaba::core {
             environment->set_sdfgi_y_scale(static_cast<GodotEnvironment::SDFGIYScale>(scale));
         }
 
-        sunaba::spatial::Sky* getSky() {
-            return new sunaba::spatial::Sky(environment->get_sky().ptr());
+        bxtk::spatial::Sky* getSky() {
+            return new bxtk::spatial::Sky(environment->get_sky().ptr());
         }
 
-        void setSky(sunaba::spatial::Sky* sky) {
+        void setSky(bxtk::spatial::Sky* sky) {
             environment->set_sky(sky->getSky());
         }
 

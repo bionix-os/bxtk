@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Weekday(Int) from Int to Int {
 	var sunday = 0;

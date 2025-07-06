@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GraphemeFlag(Int) from Int to Int {
 	var valid = 1;

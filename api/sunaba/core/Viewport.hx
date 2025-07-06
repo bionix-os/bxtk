@@ -1,8 +1,8 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.spatial.World3D;
-import sunaba.ui.Control;
-import sunaba.input.InputEvent;
+import bxtk.spatial.World3D;
+import bxtk.ui.Control;
+import bxtk.input.InputEvent;
 
 @:native("Viewport")
 extern class Viewport extends Element {

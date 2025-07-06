@@ -1,5 +1,5 @@
-package sunaba.core;
-import sunaba.desktop.Window;
+package bxtk.core;
+import bxtk.desktop.Window;
 
 @:native("Element")
 extern class Element extends BaseObject {

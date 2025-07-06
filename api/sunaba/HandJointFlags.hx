@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract HandJointFlags(Int) from Int to Int {
 	var orientationValid = 1;

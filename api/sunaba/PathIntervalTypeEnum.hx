@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PathIntervalTypeEnum(Int) from Int to Int {
 	var distance = 0;

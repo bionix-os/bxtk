@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract PanelTooltipAutoTranslateMode(Int) from Int to Int {
 	var inherit = 0;

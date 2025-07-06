@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ProcessInfo(Int) from Int to Int {
 	var activeObjects = 0;

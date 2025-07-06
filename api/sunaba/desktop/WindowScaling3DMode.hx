@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract WindowScaling3DMode(Int) from Int to Int {
 	var bilinear = 0;

@@ -1,7 +1,7 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.core.Element;
-import sunaba.ui.Button;
+import bxtk.core.Element;
+import bxtk.ui.Button;
 
 @:native("ConfirmationDialog")
 extern class ConfirmationDialog extends AcceptDialog {

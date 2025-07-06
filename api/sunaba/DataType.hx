@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DataType(Int) from Int to Int {
 	var color = 0;

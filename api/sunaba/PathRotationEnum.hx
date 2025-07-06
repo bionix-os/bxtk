@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PathRotationEnum(Int) from Int to Int {
 	var polygon = 0;

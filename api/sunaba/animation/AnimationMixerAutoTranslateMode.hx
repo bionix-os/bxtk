@@ -1,4 +1,4 @@
-package sunaba..animation;
+package bxtk..animation;
 
 enum abstract AnimationMixerAutoTranslateMode(Int) from Int to Int {
 	var inherit = 0;

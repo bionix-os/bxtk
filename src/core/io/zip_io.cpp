@@ -3,9 +3,9 @@
 #include "../string_utils.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::core::io {
+namespace bxtk::core::io {
     void bindZipIo(sol::state& lua) {
         lua.new_usertype<ZipIo>(
             "ZipIo",
@@ -83,4 +83,4 @@ namespace sunaba::core::io {
         }
         return false; // No files found in the specified directory
     }
-} // namespace sunaba::core::io
+} // namespace bxtk::core::io

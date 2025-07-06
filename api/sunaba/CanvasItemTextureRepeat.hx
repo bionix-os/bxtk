@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CanvasItemTextureRepeat(Int) from Int to Int {
 	var default = 0;

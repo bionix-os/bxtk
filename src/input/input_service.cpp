@@ -1,14 +1,14 @@
 #include "input_service.h"
 
 // Add this definition at global scope (outside any function/namespace)
-godot::Input *sunaba::input::InputService::inputSingleton = nullptr;
-sunaba::input::InputServiceSignalWrapper *sunaba::input::InputService::signalWrapper = nullptr;
-sunaba::core::Event *sunaba::input::InputService::joyConnectionChangedEvent = nullptr;
+godot::Input *bxtk::input::InputService::inputSingleton = nullptr;
+bxtk::input::InputServiceSignalWrapper *bxtk::input::InputService::signalWrapper = nullptr;
+bxtk::core::Event *bxtk::input::InputService::joyConnectionChangedEvent = nullptr;
 
 
 
 
-namespace sunaba::input {
+namespace bxtk::input {
     void InputServiceSignalWrapper::_bind_methods() {
         ClassDB::bind_method(D_METHOD("joy_connection_changed", "device", "connected"), &InputServiceSignalWrapper::joy_connection_changed);
     }
@@ -107,9 +107,9 @@ namespace sunaba::input {
             "removeJoyMapping", &InputService::removeJoyMapping,
             "setAccelerometer", &InputService::setAccelerometer,
             "setCustomMouseCursor", sol::factories(
-                [](sunaba::core::Resource* image) { InputService::setCustomMouseCursor(image); },
-                [](sunaba::core::Resource* image, int shape) { InputService::setCustomMouseCursor(image, shape); },
-                [](sunaba::core::Resource* image, int shape, Vector2 hotspot) { InputService::setCustomMouseCursor(image, shape, hotspot); }
+                [](bxtk::core::Resource* image) { InputService::setCustomMouseCursor(image); },
+                [](bxtk::core::Resource* image, int shape) { InputService::setCustomMouseCursor(image, shape); },
+                [](bxtk::core::Resource* image, int shape, Vector2 hotspot) { InputService::setCustomMouseCursor(image, shape, hotspot); }
             ),
             "setDefaultCursorShape", sol::factories(
                 []() { InputService::setDeaultCursorShape(); },

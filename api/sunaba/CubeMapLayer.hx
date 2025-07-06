@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CubeMapLayer(Int) from Int to Int {
 	var left = 0;

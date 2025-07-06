@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("PlatformService")
 extern class PlatformService extends Service {

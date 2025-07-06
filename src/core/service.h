@@ -3,7 +3,7 @@
 
 #include <sol/sol.hpp>
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindService(sol::state& lua);
 
     class ServiceInstance;

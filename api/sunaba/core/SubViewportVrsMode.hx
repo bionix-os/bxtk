@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract SubViewportVrsMode(Int) from Int to Int {
 	var disabled = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SpacingType(Int) from Int to Int {
 	var glyph = 0;

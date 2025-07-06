@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AccessEnum(Int) from Int to Int {
 	var resources = 0;

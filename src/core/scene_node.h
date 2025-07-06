@@ -8,7 +8,7 @@
 #include "element.h"
 
 using namespace godot;
-namespace sunaba::core {
+namespace bxtk::core {
     
     class SceneNode : public godot::Node {
         GDCLASS(SceneNode, Node)

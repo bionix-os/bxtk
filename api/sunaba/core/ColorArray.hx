@@ -1,6 +1,6 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.core.Color;
+import bxtk.core.Color;
 
 abstract ColorArray(lua.Table<Int, Color>) from lua.Table<Int, Color> to lua.Table<Int, Color> {
     @:to

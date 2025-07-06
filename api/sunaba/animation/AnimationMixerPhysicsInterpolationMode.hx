@@ -1,4 +1,4 @@
-package sunaba..animation;
+package bxtk..animation;
 
 enum abstract AnimationMixerPhysicsInterpolationMode(Int) from Int to Int {
 	var inherit = 0;

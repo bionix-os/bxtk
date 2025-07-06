@@ -1,9 +1,9 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Element;
-import sunaba.input.Shortcut;
-import sunaba.core.Resource;
-import sunaba.core.Event;
+import bxtk.core.Element;
+import bxtk.input.Shortcut;
+import bxtk.core.Resource;
+import bxtk.core.Event;
 
 @:native("BaseButton")
 extern class BaseButton extends Control {

@@ -10,9 +10,9 @@
 #include "camera_attributes.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
     void bindCameraAttributesPractical(sol::state_view& lua);
 
     class CameraAttributesPractical : public CameraAttributes {

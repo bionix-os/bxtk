@@ -1,6 +1,6 @@
 #include "sub_viewport.h"
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindSubViewport(sol::state& lua) {
         lua.new_usertype<SubViewport>("SubViewport",
             "new", sol::factories(

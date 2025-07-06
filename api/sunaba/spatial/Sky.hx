@@ -1,7 +1,7 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Resource;
-import sunaba.core.Material;
+import bxtk.core.Resource;
+import bxtk.core.Material;
 
 @:native("Sky")
 extern class Sky extends Resource {
@@ -21,4 +21,4 @@ abstract SkyAbstract(Sky) from Sky to Sky {
         }
         return sky;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

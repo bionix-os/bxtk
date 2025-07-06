@@ -1,8 +1,8 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.BitMap;
-import sunaba.core.Texture2D;
-import sunaba.core.Element;
+import bxtk.core.BitMap;
+import bxtk.core.Texture2D;
+import bxtk.core.Element;
 
 @Native("TextureButton")
 extern class TextureButton extends BaseButton {

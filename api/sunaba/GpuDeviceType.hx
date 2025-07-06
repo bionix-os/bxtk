@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GpuDeviceType(Int) from Int to Int {
 	var other = 0;

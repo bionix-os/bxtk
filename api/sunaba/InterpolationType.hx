@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract InterpolationType(Int) from Int to Int {
 	var nearest = 0;

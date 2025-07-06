@@ -1,4 +1,4 @@
-package sunaba.core.io;
+package bxtk.core.io;
 
 @:native("BinaryData")
 // BinaryData is a class that represents a binary data buffer.

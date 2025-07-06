@@ -1,6 +1,6 @@
-package sunaba.input;
+package bxtk.input;
 
-import sunaba.core.Vector2;
+import bxtk.core.Vector2;
 
 @:native("InputEventMouse")
 extern class InputEventMouse extends InputEventWithModifiers {
@@ -20,4 +20,4 @@ abstract InputEventMouseAbstract(InputEventMouse) from InputEventMouse to InputE
         }
         return inputEventMouse;
     }
-} // end package sunaba.input
+} // end package bxtk.input

@@ -12,9 +12,9 @@
 #include "../core/event.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindSplitContainer(sol::state& lua);
 
     class SplitContainer;
@@ -26,7 +26,7 @@ namespace sunaba::ui {
                 // Bind methods specific to SplitContainerProxy
             }
         public:
-            sunaba::ui::SplitContainer* element = nullptr;
+            bxtk::ui::SplitContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

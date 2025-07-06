@@ -11,12 +11,12 @@
 #include "../core/texture2d.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
     void bindProceduralSkyMaterial(sol::state_view& lua);
 
-    class ProceduralSkyMaterial : public sunaba::core::Material {
+    class ProceduralSkyMaterial : public bxtk::core::Material {
     private:
         GodotProceduralSkyMaterial* proceduralSkyMaterial;
     public:
@@ -79,13 +79,13 @@ namespace sunaba::spatial {
             proceduralSkyMaterial->set_ground_horizon_color(color);
         }
 
-        sunaba::core::Texture2D* getSkyCover() {
-            return new sunaba::core::Texture2D(
+        bxtk::core::Texture2D* getSkyCover() {
+            return new bxtk::core::Texture2D(
                 proceduralSkyMaterial->get_sky_cover().ptr()
             );
         }
 
-        void setSkyCover(sunaba::core::Texture2D* texture) {
+        void setSkyCover(bxtk::core::Texture2D* texture) {
             proceduralSkyMaterial->set_sky_cover(texture->getTexture2D());
         }
 

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract MultimeshPhysicsInterpolationQuality(Int) from Int to Int {
 	var fast = 0;

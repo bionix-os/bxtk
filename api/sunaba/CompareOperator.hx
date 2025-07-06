@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CompareOperator(Int) from Int to Int {
 	var never = 0;

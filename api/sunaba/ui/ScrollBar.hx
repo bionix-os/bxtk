@@ -1,19 +1,19 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Event;
+import bxtk.core.Event;
 
 @:native("ScrollBar")
 extern class ScrollBar extends Range {
     public var customStep: Float;
     public var scrolling: Event;
     @:native("cast")
-    public static function toScrollBar(obj: Dynamic): sunaba.ui.ScrollBar;
+    public static function toScrollBar(obj: Dynamic): bxtk.ui.ScrollBar;
 }
 
 abstract ScrollBarAbstract(ScrollBar) from ScrollBar to ScrollBar {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.ScrollBar {
-        var scrollBar = sunaba.ui.ScrollBar.toScrollBar(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.ScrollBar {
+        var scrollBar = bxtk.ui.ScrollBar.toScrollBar(element);
         if (scrollBar.isNull()) {
             return null;
         }

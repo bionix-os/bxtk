@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LayeredType(Int) from Int to Int {
 	var type2dArray = 0;

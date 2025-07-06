@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract EffectCallbackTypeEnum(Int) from Int to Int {
 	var preOpaque = 0;

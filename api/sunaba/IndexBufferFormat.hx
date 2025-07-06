@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract IndexBufferFormat(Int) from Int to Int {
 	var uint16 = 0;

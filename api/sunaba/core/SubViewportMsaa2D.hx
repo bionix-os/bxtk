@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract SubViewportMsaa2D(Int) from Int to Int {
 	var disabled = 0;

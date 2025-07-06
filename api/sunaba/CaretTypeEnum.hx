@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CaretTypeEnum(Int) from Int to Int {
 	var line = 0;

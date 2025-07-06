@@ -1,4 +1,4 @@
-package sunaba..spatial;
+package bxtk..spatial;
 
 enum abstract Label3DVisibilityRangeFadeMode(Int) from Int to Int {
 	var disabled = 0;

@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract WindowAnisotropicFilteringLevel(Int) from Int to Int {
 	var disabled = 0;

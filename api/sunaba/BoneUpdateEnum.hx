@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BoneUpdateEnum(Int) from Int to Int {
 	var full = 0;

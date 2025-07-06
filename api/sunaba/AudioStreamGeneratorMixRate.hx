@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AudioStreamGeneratorMixRate(Int) from Int to Int {
 	var output = 0;

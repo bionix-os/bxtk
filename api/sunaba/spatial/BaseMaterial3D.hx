@@ -1,9 +1,9 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Vector3;
-import sunaba.core.Material;
-import sunaba.core.Color;
-import sunaba.core.Texture2D;
+import bxtk.core.Vector3;
+import bxtk.core.Material;
+import bxtk.core.Color;
+import bxtk.core.Texture2D;
 
 @:native("BaseMaterial3D")
 extern class BaseMaterial3D extends Material {
@@ -143,4 +143,4 @@ abstract BaseMaterial3DAbstract(BaseMaterial3D) from BaseMaterial3D to BaseMater
         }
         return baseMaterial3D;
     }
-} // end package sunaba.spatial
+} // end package bxtk.spatial

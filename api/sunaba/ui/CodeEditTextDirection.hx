@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract CodeEditTextDirection(Int) from Int to Int {
 	var auto = 0;

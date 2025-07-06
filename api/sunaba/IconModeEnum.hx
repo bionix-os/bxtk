@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract IconModeEnum(Int) from Int to Int {
 	var top = 0;

@@ -11,7 +11,7 @@
 
 using namespace godot;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
     void bindArrayOccluder3D(sol::state_view& lua);
 
     class ArrayOccluder : public Occluder3D {

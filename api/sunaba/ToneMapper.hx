@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ToneMapper(Int) from Int to Int {
 	var linear = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CollisionModeEnum(Int) from Int to Int {
 	var disabled = 0;

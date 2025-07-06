@@ -1,6 +1,6 @@
-package sunaba.input;
+package bxtk.input;
 
-import sunaba.core.Resource;
+import bxtk.core.Resource;
 
 @:native("InputEvent")
 extern class InputEvent extends Resource {
@@ -31,4 +31,4 @@ abstract InputEventAbstract(InputEvent) from InputEvent to InputEvent {
         }
         return inputEvent;
     } 
-} // end package sunaba.core
+} // end package bxtk.core

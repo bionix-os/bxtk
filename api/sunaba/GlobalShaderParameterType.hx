@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GlobalShaderParameterType(Int) from Int to Int {
 	var bool = 0;

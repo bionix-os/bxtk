@@ -27,8 +27,8 @@ import lua.lib.luv.Os;
 import lua.lib.luv.Misc;
 import sys.io.FileInput;
 import sys.io.FileOutput;
-import sunaba.core.Vector;
-import sunaba.core.PlatformService;
+import bxtk.core.Vector;
+import bxtk.core.PlatformService;
 
 @:coreApi
 class Sys {

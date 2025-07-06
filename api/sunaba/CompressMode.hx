@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CompressMode(Int) from Int to Int {
 	var s3Tc = 0;

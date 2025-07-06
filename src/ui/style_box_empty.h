@@ -10,12 +10,12 @@
 #include "style_box.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindStyleBoxEmpty(sol::state &lua);
 
-    class StyleBoxEmpty : public sunaba::ui::StyleBox {
+    class StyleBoxEmpty : public bxtk::ui::StyleBox {
     private:
         GodotStyleBoxEmpty* style_box_empty = nullptr; // Pointer to the StyleBox instance
     public:

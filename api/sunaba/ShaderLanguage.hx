@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShaderLanguage(Int) from Int to Int {
 	var glsl = 0;

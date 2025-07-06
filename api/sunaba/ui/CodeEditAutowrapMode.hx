@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract CodeEditAutowrapMode(Int) from Int to Int {
 	var off = 0;

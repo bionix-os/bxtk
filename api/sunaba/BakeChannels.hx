@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BakeChannels(Int) from Int to Int {
 	var albedoAlpha = 0;

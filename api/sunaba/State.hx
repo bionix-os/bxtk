@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract State(Int) from Int to Int {
 	var connecting = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Method(Int) from Int to Int {
 	var get = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract WriteMode(Int) from Int to Int {
 	var text = 0;

@@ -10,9 +10,9 @@
 #include "style_box.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindStyleBoxFlat(sol::state_view &lua);
 
     class StyleBoxFlat : public StyleBox {

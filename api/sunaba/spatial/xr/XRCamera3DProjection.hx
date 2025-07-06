@@ -1,4 +1,4 @@
-package sunaba..spatial.xr;
+package bxtk..spatial.xr;
 
 enum abstract XRCamera3DProjection(Int) from Int to Int {
 	var perspective = 0;

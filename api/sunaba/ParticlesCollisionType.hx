@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ParticlesCollisionType(Int) from Int to Int {
 	var sphereAttract = 0;

@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract GraphEditTooltipAutoTranslateMode(Int) from Int to Int {
 	var inherit = 0;

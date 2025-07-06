@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ResolutionEnum(Int) from Int to Int {
 	var resolution16 = 0;

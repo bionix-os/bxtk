@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DepthDrawModeEnum(Int) from Int to Int {
 	var opaqueOnly = 0;

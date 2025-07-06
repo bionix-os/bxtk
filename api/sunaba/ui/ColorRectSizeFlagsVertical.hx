@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract ColorRectSizeFlagsVertical(Int) from Int to Int {
 	var shrinkBegin = 0;

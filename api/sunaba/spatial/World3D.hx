@@ -1,7 +1,7 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Resource;
-import sunaba.core.Environment;
+import bxtk.core.Resource;
+import bxtk.core.Environment;
 
 @:native("World3D")
 extern class World3D extends Resource {
@@ -20,4 +20,4 @@ abstract World3DAbstract(World3D) from World3D to World3D {
         }
         return world3D;
     }
-} // end package sunaba.spatial
+} // end package bxtk.spatial

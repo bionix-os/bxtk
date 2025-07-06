@@ -1,6 +1,6 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Component;
+import bxtk.core.Component;
 
 @:native("IVisualInstance")
 extern class IVisualInstance extends Component {

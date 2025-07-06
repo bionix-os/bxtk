@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Limit(Int) from Int to Int {
 	var maxBoundUniformSets = 0;

@@ -1,4 +1,4 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventGesture")
 extern class InputEventGesture extends InputEventWithModifiers {

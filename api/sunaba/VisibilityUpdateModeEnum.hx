@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract VisibilityUpdateModeEnum(Int) from Int to Int {
 	var idle = 0;

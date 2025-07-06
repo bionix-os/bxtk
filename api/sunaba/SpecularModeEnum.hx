@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SpecularModeEnum(Int) from Int to Int {
 	var schlickGgx = 0;

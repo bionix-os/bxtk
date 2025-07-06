@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SearchFlags(Int) from Int to Int {
 	var matchCase = 1;

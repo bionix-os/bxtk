@@ -11,12 +11,12 @@
 #include "../core/material.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
     void bindSky(sol::state_view& lua);
 
-    class Sky : public sunaba::core::Resource {
+    class Sky : public bxtk::core::Resource {
     private:
         GodotSky* sky = nullptr;
     public:
@@ -54,11 +54,11 @@ namespace sunaba::spatial {
             sky->set_radiance_size(static_cast<GodotSky::RadianceSize>(size));
         }
 
-        sunaba::core::Material* getSkyMaterial() {
-            return new sunaba::core::Material(sky->get_material().ptr());
+        bxtk::core::Material* getSkyMaterial() {
+            return new bxtk::core::Material(sky->get_material().ptr());
         }
 
-        void setSkyMaterial(sunaba::core::Material* material) {
+        void setSkyMaterial(bxtk::core::Material* material) {
             sky->set_material(material->getMaterial());
         }
     };

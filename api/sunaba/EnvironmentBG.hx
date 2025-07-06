@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract EnvironmentBG(Int) from Int to Int {
 	var clearColor = 0;

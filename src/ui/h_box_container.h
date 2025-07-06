@@ -10,9 +10,9 @@
 #include "box_container.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindHBoxContainer(sol::state &lua);
 
     class HBoxContainer;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to HBoxContainerProxy
             }
         public:
-            sunaba::ui::HBoxContainer* element = nullptr;
+            bxtk::ui::HBoxContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

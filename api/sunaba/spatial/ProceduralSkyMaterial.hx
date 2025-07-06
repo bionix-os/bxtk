@@ -1,8 +1,8 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Texture2D;
-import sunaba.core.Material;
-import sunaba.core.Color;
+import bxtk.core.Texture2D;
+import bxtk.core.Material;
+import bxtk.core.Color;
 
 @:native("ProceduralSkyMaterial")
 extern class ProceduralSkyMaterial extends Material {
@@ -32,4 +32,4 @@ abstract ProceduralSkyMaterialAbstract(ProceduralSkyMaterial) from ProceduralSky
         }
         return proceduralSkyMaterial;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

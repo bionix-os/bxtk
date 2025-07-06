@@ -1,7 +1,7 @@
-package sunaba;
+package bxtk;
 
-import sunaba.core.Vector;
-import sunaba.core.Element;
+import bxtk.core.Vector;
+import bxtk.core.Element;
 
 @:native("Runtime")
 extern class Runtime extends Element {

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BGMode(Int) from Int to Int {
 	var clearColor = 0;

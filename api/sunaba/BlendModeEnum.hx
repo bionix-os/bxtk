@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BlendModeEnum(Int) from Int to Int {
 	var add = 0;

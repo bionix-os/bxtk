@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("FontVariation")
 extern class FontVariation extends Font {

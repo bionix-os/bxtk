@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("Scene")
 extern class Scene extends BaseObject {

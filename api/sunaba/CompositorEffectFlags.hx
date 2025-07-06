@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CompositorEffectFlags(Int) from Int to Int {
 	var accessResolvedColor = 1;

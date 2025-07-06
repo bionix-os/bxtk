@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract UnixPermissionFlags(Int) from Int to Int {
 	var executeOther = 1;

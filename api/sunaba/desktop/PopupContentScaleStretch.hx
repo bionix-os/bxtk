@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract PopupContentScaleStretch(Int) from Int to Int {
 	var fractional = 0;

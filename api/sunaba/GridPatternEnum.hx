@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GridPatternEnum(Int) from Int to Int {
 	var lines = 0;

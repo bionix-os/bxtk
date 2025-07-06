@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShadowCastingSetting(Int) from Int to Int {
 	var off = 0;

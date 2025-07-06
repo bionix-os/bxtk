@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DampMode(Int) from Int to Int {
 	var combine = 0;

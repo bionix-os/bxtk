@@ -1,4 +1,4 @@
-package sunaba..core;
+package bxtk..core;
 
 enum abstract WorldEnvironmentProcessMode(Int) from Int to Int {
 	var inherit = 0;

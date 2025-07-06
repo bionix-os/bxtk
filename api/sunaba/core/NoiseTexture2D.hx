@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("NoiseTexture2D")
 extern class NoiseTexture2D extends Texture2D {

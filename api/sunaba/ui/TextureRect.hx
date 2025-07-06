@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Texture2D;
-import sunaba.core.Element;
+import bxtk.core.Texture2D;
+import bxtk.core.Element;
 
 @:native("TextureRect")
 extern class TextureRect extends Control {

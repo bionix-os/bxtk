@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract DriverResource(Int) from Int to Int {
 	var logicalDevice = 0;

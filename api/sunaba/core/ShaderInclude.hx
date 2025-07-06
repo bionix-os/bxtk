@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("ShaderInclude")
 extern class ShaderInclude extends Resource {

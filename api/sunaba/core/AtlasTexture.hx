@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("AtlasTexture")
 extern class AtlasTexture extends Texture {

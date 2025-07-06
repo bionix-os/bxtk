@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ThreadLoadStatus(Int) from Int to Int {
 	var invalidResource = 0;

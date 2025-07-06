@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Element;
-import sunaba.core.Texture2D;
+import bxtk.core.Element;
+import bxtk.core.Texture2D;
 
 @:native("Button")
 extern class Button extends BaseButton {

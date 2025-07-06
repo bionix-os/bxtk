@@ -1,7 +1,7 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
-import sunaba.core.Transform3D;
-import sunaba.core.Resource;
+import bxtk.core.Transform3D;
+import bxtk.core.Resource;
 
 @:native("Skin")
 extern class Skin extends Resource {
@@ -29,4 +29,4 @@ abstract SkinAbstract(Skin) from Skin to Skin {
         }
         return skin;
     } 
-} // end package sunaba.spatial
+} // end package bxtk.spatial

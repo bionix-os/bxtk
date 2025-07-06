@@ -12,7 +12,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindAnimatedTexture(sol::state &lua);
 
     class AnimatedTexture : public Texture2D {

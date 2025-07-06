@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ModeEnum(Int) from Int to Int {
 	var windowed = 0;

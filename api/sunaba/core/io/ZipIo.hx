@@ -1,4 +1,4 @@
-package sunaba.core.io;
+package bxtk.core.io;
 
 @:native("ZipIo")
 extern class ZipIo extends IoInterface {

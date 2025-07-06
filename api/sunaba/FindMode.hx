@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FindMode(Int) from Int to Int {
 	var nearest = 0;

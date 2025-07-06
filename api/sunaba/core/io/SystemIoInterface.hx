@@ -1,4 +1,4 @@
-package sunaba.core.io;
+package bxtk.core.io;
 
 @:native("SystemIoInterface")
 extern class SystemIoInterface extends IoInterface {

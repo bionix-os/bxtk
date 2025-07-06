@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PlaybackModeEnum(Int) from Int to Int {
 	var randomNoRepeats = 0;

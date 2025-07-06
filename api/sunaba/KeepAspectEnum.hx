@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract KeepAspectEnum(Int) from Int to Int {
 	var width = 0;

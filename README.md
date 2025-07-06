@@ -1,4 +1,4 @@
-# Sunaba
+# BXTK
 
 work in progress game engine
 
@@ -25,17 +25,17 @@ Here's an example of how to build & install a release version (use the terminal 
 #### Not MSVC or Emscripten
 
 ```sh
-$ cmake -B sunaba-build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=sunaba-install sunaba
-$ cmake --build sunaba-build --parallel
-$ cmake --install sunaba-build
+$ cmake -B bxtk-build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=bxtk-install bxtk
+$ cmake --build bxtk-build --parallel
+$ cmake --install bxtk-build
 ```
 
 #### Emscripten
 
 ```sh
-$ emcmake cmake -B sunaba-build-web -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=sunaba-install-web
-$ cmake --build sunaba-build-web 
-$ cmake --install sunaba-build-web
+$ emcmake cmake -B bxtk-build-web -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=bxtk-install-web
+$ cmake --build bxtk-build-web 
+$ cmake --install bxtk-build-web
 ```
 
 > **Note:**
@@ -46,10 +46,10 @@ $ cmake --install sunaba-build-web
 #### MSVC
 
 ```sh
-$ cmake -B sunaba-build -G"Visual Studio 17 2022"  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=sunaba-install sunaba
-Copy-Item "lua51.lib" -Destination "sunaba-build\lua51.lib"
-$ cmake --build sunaba-build --config Release
-$ cmake --install sunaba-build
+$ cmake -B bxtk-build -G"Visual Studio 17 2022"  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=bxtk-install bxtk
+Copy-Item "lua51.lib" -Destination "bxtk-build\lua51.lib"
+$ cmake --build bxtk-build --config Release
+$ cmake --install bxtk-build
 ```
 
 This tells CMake to use `Visual Studio 2022`. There is a list of Visual Studio generators [on the CMake site](https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#visual-studio-generators) - pick the one you are using.

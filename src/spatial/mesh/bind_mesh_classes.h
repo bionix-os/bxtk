@@ -3,7 +3,7 @@
 
 #include <sol/sol.hpp>
 
-namespace sunaba::spatial::mesh
+namespace bxtk::spatial::mesh
 {
     void bindMeshClasses(sol::state& lua);
 }

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FogModeEnum(Int) from Int to Int {
 	var exponential = 0;

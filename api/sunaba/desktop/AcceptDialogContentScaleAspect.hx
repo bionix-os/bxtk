@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract AcceptDialogContentScaleAspect(Int) from Int to Int {
 	var ignore = 0;

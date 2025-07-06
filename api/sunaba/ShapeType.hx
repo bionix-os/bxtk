@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShapeType(Int) from Int to Int {
 	var worldBoundary = 0;

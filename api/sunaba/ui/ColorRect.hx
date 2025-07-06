@@ -1,7 +1,7 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Color;
-import sunaba.core.Element;
+import bxtk.core.Color;
+import bxtk.core.Element;
 
 @:native("ColorRect")
 extern class ColorRect extends Control {
@@ -12,7 +12,7 @@ extern class ColorRect extends Control {
 
 abstract ColorRectAbstract(ColorRect) from ColorRect to ColorRect {
     @:from
-    public static function fromElement(element: sunaba.core.Element): ColorRectAbstract {
+    public static function fromElement(element: bxtk.core.Element): ColorRectAbstract {
         var rect = ColorRect.toColorRect(element);
         if (rect.isNull()) {
             return null;

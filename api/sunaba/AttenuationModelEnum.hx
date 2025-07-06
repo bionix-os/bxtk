@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AttenuationModelEnum(Int) from Int to Int {
 	var inverseDistance = 0;

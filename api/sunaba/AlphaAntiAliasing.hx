@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AlphaAntiAliasing(Int) from Int to Int {
 	var off = 0;

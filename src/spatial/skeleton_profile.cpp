@@ -1,11 +1,11 @@
 #include "skeleton_profile.h"
 
-void sunaba::spatial::bindSkeletonProfile(sol::state_view& lua) {
-    lua.new_usertype<sunaba::spatial::SkeletonProfile>("SkeletonProfile",
+void bxtk::spatial::bindSkeletonProfile(sol::state_view& lua) {
+    lua.new_usertype<bxtk::spatial::SkeletonProfile>("SkeletonProfile",
         "new", sol::factories(
-            []() { return new sunaba::spatial::SkeletonProfile(); }
+            []() { return new bxtk::spatial::SkeletonProfile(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource>(),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource>(),
         "boneSize", sol::property(&SkeletonProfile::getBoneSize, &SkeletonProfile::setBoneSize),
         "groupSize", sol::property(&SkeletonProfile::getGroupSize, &SkeletonProfile::setGroupSize),
         "rootBone", sol::property(&SkeletonProfile::getRootBone, &SkeletonProfile::setRootBone),
@@ -30,7 +30,7 @@ void sunaba::spatial::bindSkeletonProfile(sol::state_view& lua) {
         "setReferencePose", &SkeletonProfile::setReferencePose,
         "setTailDirection", &SkeletonProfile::setTailDirection,
         "setTexture", &SkeletonProfile::setTexture,
-        "cast", [](sunaba::core::Resource* instance) {
+        "cast", [](bxtk::core::Resource* instance) {
             return new SkeletonProfile(godot::Object::cast_to<GodotSkeletonProfile>(instance->getResource()));
         }
     );

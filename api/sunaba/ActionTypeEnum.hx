@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ActionTypeEnum(Int) from Int to Int {
 	var bool = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract UpdateModeEnum(Int) from Int to Int {
 	var once = 0;

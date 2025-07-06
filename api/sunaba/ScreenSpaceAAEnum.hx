@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ScreenSpaceAAEnum(Int) from Int to Int {
 	var disabled = 0;

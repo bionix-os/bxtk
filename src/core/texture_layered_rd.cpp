@@ -1,11 +1,11 @@
 #include "texture_layered_rd.h"
 
-void sunaba::core::bindTextureLayeredRD(sol::state &lua) {
-    lua.new_usertype<sunaba::core::TextureLayeredRD>("TextureLayeredRD",
+void bxtk::core::bindTextureLayeredRD(sol::state &lua) {
+    lua.new_usertype<bxtk::core::TextureLayeredRD>("TextureLayeredRD",
         "new", sol::factories(
-            []() { return new sunaba::core::TextureLayeredRD(); }
+            []() { return new bxtk::core::TextureLayeredRD(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource, sunaba::core::Texture, sunaba::core::TextureLayered>(),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource, bxtk::core::Texture, bxtk::core::TextureLayered>(),
         "cast", [](Resource* instance) {
             return new TextureLayeredRD(godot::Object::cast_to<GodotTextureLayeredRD>(instance->getResource()));
         }

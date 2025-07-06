@@ -11,15 +11,15 @@
 #include "../core/event.h"
 #include "../core/stl_function_wrapper.h"
 
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
 
     class BaseButton;
 
     void bindButtonGroup(sol::state &lua);
 
-    class ButtonGroup : public sunaba::core::Resource {
+    class ButtonGroup : public bxtk::core::Resource {
     private:
         GodotButtonGroup* button_group = nullptr; // Pointer to the ButtonGroup instance
 

@@ -1,6 +1,6 @@
-package sunaba;
+package bxtk;
 
-import sunaba.core.Element;
+import bxtk.core.Element;
 
 class App {
     public var rootElement(get, default): Element;

@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("ShaderMaterial")
 extern class ShaderMaterial extends Material {

@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract ItemListSizeFlagsHorizontal(Int) from Int to Int {
 	var shrinkBegin = 0;

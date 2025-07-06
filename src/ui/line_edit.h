@@ -14,9 +14,9 @@
 #include "../desktop/popup_menu.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindLineEdit(sol::state &lua);
 
     class LineEdit;
@@ -26,7 +26,7 @@ namespace sunaba::ui {
         protected:
             static void _bind_methods() {}
         public:
-            sunaba::ui::LineEdit* element = nullptr;
+            bxtk::ui::LineEdit* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance
@@ -66,7 +66,7 @@ namespace sunaba::ui {
         protected:
             static void _bind_methods();
         public:
-            sunaba::ui::LineEdit* element = nullptr;
+            bxtk::ui::LineEdit* element = nullptr;
 
             LineEditSignalWrapper() = default;
             ~LineEditSignalWrapper() = default;
@@ -297,11 +297,11 @@ namespace sunaba::ui {
                 line_edit_node->set_placeholder(String(text.c_str()));
             }
 
-            sunaba::core::Texture2D* getRightIcon() {
-                return new sunaba::core::Texture2D(line_edit_node->get_right_icon().ptr());
+            bxtk::core::Texture2D* getRightIcon() {
+                return new bxtk::core::Texture2D(line_edit_node->get_right_icon().ptr());
             }
 
-            void setRightIcon(sunaba::core::Texture2D* icon) {
+            void setRightIcon(bxtk::core::Texture2D* icon) {
                 line_edit_node->set_right_icon(Ref<godot::Texture2D>(icon->getTexture()));
             }
 
@@ -450,8 +450,8 @@ namespace sunaba::ui {
                 line_edit_node->edit();
             }
 
-            sunaba::desktop::PopupMenu* getMenu() {
-                return new sunaba::desktop::PopupMenu(line_edit_node->get_menu());
+            bxtk::desktop::PopupMenu* getMenu() {
+                return new bxtk::desktop::PopupMenu(line_edit_node->get_menu());
             }
 
             float getScrollOffset() {

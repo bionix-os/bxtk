@@ -1,6 +1,6 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Vector2;
+import bxtk.core.Vector2;
 
 @:native("Tree")
 extern class Tree extends Control {

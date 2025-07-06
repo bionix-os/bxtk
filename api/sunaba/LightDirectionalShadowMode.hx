@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LightDirectionalShadowMode(Int) from Int to Int {
 	var orthogonal = 0;

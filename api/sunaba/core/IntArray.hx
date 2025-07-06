@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 abstract IntArray(lua.Table<Int, Int>) from lua.Table<Int, Int> to lua.Table<Int, Int> {
     @:to

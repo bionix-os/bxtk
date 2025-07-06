@@ -1,7 +1,7 @@
-package sunaba.core;
+package bxtk.core;
 
-import sunaba.core.io.BinaryData;
-import sunaba.core.io.IoInterface;
+import bxtk.core.io.BinaryData;
+import bxtk.core.io.IoInterface;
 
 @:native("Image")
 extern class Image extends Resource {

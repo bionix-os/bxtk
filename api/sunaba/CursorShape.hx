@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CursorShape(Int) from Int to Int {
 	var arrow = 0;

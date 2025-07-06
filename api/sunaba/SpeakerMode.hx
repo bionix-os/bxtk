@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SpeakerMode(Int) from Int to Int {
 	var modeStereo = 0;

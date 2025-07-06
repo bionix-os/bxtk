@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract LinkButtonActionMode(Int) from Int to Int {
 	var press = 0;

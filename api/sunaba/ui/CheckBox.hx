@@ -1,6 +1,6 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Element;
+import bxtk.core.Element;
 
 @:native("CheckBox")
 extern class CheckBox extends Button {

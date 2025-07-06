@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract CompressSource(Int) from Int to Int {
 	var generic = 0;

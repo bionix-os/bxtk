@@ -1,4 +1,4 @@
-package sunaba.spatial;
+package bxtk.spatial;
 
 @:native("IGeometryInstance")
 extern class IGeometryInstance extends IVisualInstance {

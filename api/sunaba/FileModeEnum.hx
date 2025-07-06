@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FileModeEnum(Int) from Int to Int {
 	var openFile = 0;

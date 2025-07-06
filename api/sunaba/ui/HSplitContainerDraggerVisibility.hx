@@ -1,4 +1,4 @@
-package sunaba..ui;
+package bxtk..ui;
 
 enum abstract HSplitContainerDraggerVisibility(Int) from Int to Int {
 	var visible = 0;

@@ -9,7 +9,7 @@
 
 #include "base_object.h"
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindResource(sol::state &lua);
 
     class Resource : public BaseObject {

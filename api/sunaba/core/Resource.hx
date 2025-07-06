@@ -1,4 +1,4 @@
-package sunaba.core;
+package bxtk.core;
 
 @:native("Resource")
 extern class Resource extends BaseObject {

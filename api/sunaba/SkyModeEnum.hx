@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SkyModeEnum(Int) from Int to Int {
 	var lightAndSky = 0;

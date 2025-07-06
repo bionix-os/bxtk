@@ -1,4 +1,4 @@
-package sunaba..spatial;
+package bxtk..spatial;
 
 enum abstract StandardMaterial3DDiffuseMode(Int) from Int to Int {
 	var burley = 0;

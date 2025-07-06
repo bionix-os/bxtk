@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract GltfAccessorType(Int) from Int to Int {
 	var scalar = 0;

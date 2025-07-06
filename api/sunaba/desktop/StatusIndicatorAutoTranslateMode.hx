@@ -1,4 +1,4 @@
-package sunaba..desktop;
+package bxtk..desktop;
 
 enum abstract StatusIndicatorAutoTranslateMode(Int) from Int to Int {
 	var inherit = 0;

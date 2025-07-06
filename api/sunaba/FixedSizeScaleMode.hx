@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract FixedSizeScaleMode(Int) from Int to Int {
 	var disable = 0;

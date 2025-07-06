@@ -1,4 +1,4 @@
-package sunaba.input;
+package bxtk.input;
 
 @:native("InputEventMouseButton")
 extern class InputEventMouseButton extends InputEventMouse {
@@ -20,4 +20,4 @@ abstract InputEventMouseButtonAbstract(InputEventMouseButton) from InputEventMou
         }
         return inputEventMouseButton;
     }
-} // end package sunaba.input
+} // end package bxtk.input

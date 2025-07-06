@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract MethodFlags(Int) from Int to Int {
 	var normal = 1;

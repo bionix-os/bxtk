@@ -1,9 +1,9 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Vector2;
-import sunaba.core.Texture2D;
-import sunaba.core.Color;
-import sunaba.core.Element;
+import bxtk.core.Vector2;
+import bxtk.core.Texture2D;
+import bxtk.core.Color;
+import bxtk.core.Element;
 
 @:native("TextureProgressBar")
 extern class TextureProgressBar extends Range {

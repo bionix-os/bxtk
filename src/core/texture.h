@@ -11,7 +11,7 @@
 
 using namespace godot;
 
-namespace sunaba::core {
+namespace bxtk::core {
     void bindTexture(sol::state &lua);
 
     class Texture : public Resource {

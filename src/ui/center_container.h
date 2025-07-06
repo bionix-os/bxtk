@@ -12,9 +12,9 @@
 #include "../core/event.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindCenterContainer(sol::state &lua);
 
     class CenterContainer;
@@ -26,7 +26,7 @@ namespace sunaba::ui {
                 // Bind methods specific to CenterContainerProxy
             }
         public:
-            sunaba::ui::CenterContainer* element = nullptr;
+            bxtk::ui::CenterContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

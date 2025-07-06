@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract Scaling3DModeEnum(Int) from Int to Int {
 	var bilinear = 0;

@@ -1,6 +1,6 @@
 #include "box.h"
 
-void sunaba::spatial::mesh::bindBox(sol::state& lua) {
+void bxtk::spatial::mesh::bindBox(sol::state& lua) {
     lua.new_usertype<Box>(
         "Box",
         "new", sol::factories(

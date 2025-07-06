@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ContentScaleStretchEnum(Int) from Int to Int {
 	var fractional = 0;

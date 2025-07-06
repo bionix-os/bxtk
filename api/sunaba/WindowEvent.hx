@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract WindowEvent(Int) from Int to Int {
 	var mouseEnter = 0;

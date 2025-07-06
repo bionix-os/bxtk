@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract SkinWeightCount(Int) from Int to Int {
 	var skin4Weights = 0;

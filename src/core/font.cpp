@@ -1,37 +1,37 @@
 #include "font.h"
 
-void sunaba::core::bindFont(sol::state &lua) {
-    lua.new_usertype<sunaba::core::Font>("Font",
+void bxtk::core::bindFont(sol::state &lua) {
+    lua.new_usertype<bxtk::core::Font>("Font",
         "new", sol::factories(
-            []() { return new sunaba::core::Font(); }
+            []() { return new bxtk::core::Font(); }
         ),
-        sol::base_classes, sol::bases<sunaba::core::BaseObject, sunaba::core::Resource>(),
+        sol::base_classes, sol::bases<bxtk::core::BaseObject, bxtk::core::Resource>(),
         "fallbacks", sol::property(
-            &sunaba::core::Font::getFallbacks, 
-            &sunaba::core::Font::setFallbacks
+            &bxtk::core::Font::getFallbacks, 
+            &bxtk::core::Font::setFallbacks
         ),
-        "getAscent", &sunaba::core::Font::getAscent,
-        "getCharSize", &sunaba::core::Font::getCharSize,
-        "getDescent", &sunaba::core::Font::getDescent,
-        "getFaceCount", &sunaba::core::Font::getFaceCount,
-        "getFontName", &sunaba::core::Font::getFontName,
-        "getFontStyle", &sunaba::core::Font::getFontStyle,
-        "getFontWeight", &sunaba::core::Font::getFontWeight,
-        "getHeight", &sunaba::core::Font::getHeight,
-        "getMultilineStringSize", &sunaba::core::Font::getMultilineStringSize,
-        "getOpentypeFeatures", &sunaba::core::Font::getOpentypeFeatures,
-        "getOtNameStrings", &sunaba::core::Font::getOtNameStrings,
-        "getSpacing", &sunaba::core::Font::getSpacing,
-        "getStringSize", &sunaba::core::Font::getStringSize,
-        "getSupportedChars", &sunaba::core::Font::getSupportedChars,
-        "getSupportedFeatureList", &sunaba::core::Font::getSupportedFeatureList,
-        "getSupportedVariationList", &sunaba::core::Font::getSupportedVariationList,
-        "getUnderlinePosition", &sunaba::core::Font::getUnderlinePosition,
-        "getUnderlineThickness", &sunaba::core::Font::getUnderlineThickness,
-        "hasChar", &sunaba::core::Font::hasChar,
-        "isLanguageSupported", &sunaba::core::Font::isLanguageSupported,
-        "isScriptSupported", &sunaba::core::Font::isScriptSupported,
-        "setCacheCapacity", &sunaba::core::Font::setCacheCapacity,
+        "getAscent", &bxtk::core::Font::getAscent,
+        "getCharSize", &bxtk::core::Font::getCharSize,
+        "getDescent", &bxtk::core::Font::getDescent,
+        "getFaceCount", &bxtk::core::Font::getFaceCount,
+        "getFontName", &bxtk::core::Font::getFontName,
+        "getFontStyle", &bxtk::core::Font::getFontStyle,
+        "getFontWeight", &bxtk::core::Font::getFontWeight,
+        "getHeight", &bxtk::core::Font::getHeight,
+        "getMultilineStringSize", &bxtk::core::Font::getMultilineStringSize,
+        "getOpentypeFeatures", &bxtk::core::Font::getOpentypeFeatures,
+        "getOtNameStrings", &bxtk::core::Font::getOtNameStrings,
+        "getSpacing", &bxtk::core::Font::getSpacing,
+        "getStringSize", &bxtk::core::Font::getStringSize,
+        "getSupportedChars", &bxtk::core::Font::getSupportedChars,
+        "getSupportedFeatureList", &bxtk::core::Font::getSupportedFeatureList,
+        "getSupportedVariationList", &bxtk::core::Font::getSupportedVariationList,
+        "getUnderlinePosition", &bxtk::core::Font::getUnderlinePosition,
+        "getUnderlineThickness", &bxtk::core::Font::getUnderlineThickness,
+        "hasChar", &bxtk::core::Font::hasChar,
+        "isLanguageSupported", &bxtk::core::Font::isLanguageSupported,
+        "isScriptSupported", &bxtk::core::Font::isScriptSupported,
+        "setCacheCapacity", &bxtk::core::Font::setCacheCapacity,
         "cast", [](Resource* instance) {
             return new Font(godot::Object::cast_to<GodotFont>(instance->getResource()));
         }

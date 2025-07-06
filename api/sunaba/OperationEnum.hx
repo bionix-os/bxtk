@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract OperationEnum(Int) from Int to Int {
 	var union = 0;

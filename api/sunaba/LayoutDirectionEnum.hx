@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract LayoutDirectionEnum(Int) from Int to Int {
 	var inherited = 0;

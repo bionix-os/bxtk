@@ -10,9 +10,9 @@
 #include "flow_container.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindVFlowContainer(sol::state &lua);
 
     class VFlowContainer;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to VFlowContainerProxy
             }
         public:
-            sunaba::ui::VFlowContainer* element = nullptr;
+            bxtk::ui::VFlowContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance
@@ -91,6 +91,6 @@ namespace sunaba::ui {
                 setContainer(container);
             }
     };
-} // namespace sunaba::ui
+} // namespace bxtk::ui
 
 #endif // V_FLOW_CONTAINER_H

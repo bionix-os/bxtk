@@ -1,8 +1,8 @@
 package;
 
-import sunaba.Key;
-import sunaba.core.Behavior;
-import sunaba.input.InputService;
+import bxtk.Key;
+import bxtk.core.Behavior;
+import bxtk.input.InputService;
 
 class InputTest extends Behavior{
     override function onUpdate(deltaTime: Float) : Void {

@@ -1,9 +1,9 @@
 #include "transform.h"
 
-using namespace sunaba::core;
+using namespace bxtk::core;
 using namespace godot;
 
-namespace sunaba::spatial {
+namespace bxtk::spatial {
 
     void bindSpatialTransform(sol::state& lua) {
         lua.new_usertype<SpatialTransform>("SpatialTransform",  

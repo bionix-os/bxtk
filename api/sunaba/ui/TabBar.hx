@@ -1,10 +1,10 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Event;
-import sunaba.core.Texture2D;
-import sunaba.core.Variant;
-import sunaba.core.Rect2;
-import sunaba.core.Vector2;
+import bxtk.core.Event;
+import bxtk.core.Texture2D;
+import bxtk.core.Variant;
+import bxtk.core.Rect2;
+import bxtk.core.Vector2;
 
 @:native("TabBar")
 extern class TabBar extends Control {
@@ -66,7 +66,7 @@ extern class TabBar extends Control {
 
 abstract TabBarAbstract(TabBar) from TabBar to TabBar {
     @:from
-    public static function fromElement(element: sunaba.core.Element): TabBarAbstract {
+    public static function fromElement(element: bxtk.core.Element): TabBarAbstract {
         var tabbar = TabBar.toTabBar(element);
         if (tabbar.isNull()) {
             return null;

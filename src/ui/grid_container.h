@@ -10,9 +10,9 @@
 #include "container.h"
 
 using namespace godot;
-using namespace sunaba::core;
+using namespace bxtk::core;
 
-namespace sunaba::ui {
+namespace bxtk::ui {
     void bindGridContainer(sol::state &lua);
 
     class GridContainer;
@@ -24,7 +24,7 @@ namespace sunaba::ui {
                 // Bind methods specific to GridContainerProxy
             }
         public:
-            sunaba::ui::GridContainer* element = nullptr;
+            bxtk::ui::GridContainer* element = nullptr;
 
             void onInit() {
                 // Initialize the NodeProxy instance

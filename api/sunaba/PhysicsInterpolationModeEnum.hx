@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PhysicsInterpolationModeEnum(Int) from Int to Int {
 	var inherit = 0;

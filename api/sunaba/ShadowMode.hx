@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract ShadowMode(Int) from Int to Int {
 	var dualParaboloid = 0;

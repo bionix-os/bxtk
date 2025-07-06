@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract AnimationProcessCallback(Int) from Int to Int {
 	var physics = 0;

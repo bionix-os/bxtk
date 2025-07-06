@@ -1,6 +1,6 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.desktop.PopupMenu;
+import bxtk.desktop.PopupMenu;
 
 @:native("MenuBar")
 extern class MenuBar extends Control {
@@ -23,13 +23,13 @@ extern class MenuBar extends Control {
     public function setMenuTitle(index: Int, title: String): Void;
     public function setMenuTooltip(index: Int, tooltip: String): Void;
     @:native("cast")
-    public static function toMenuBar(obj: Dynamic): sunaba.ui.MenuBar;
+    public static function toMenuBar(obj: Dynamic): bxtk.ui.MenuBar;
 }
 
 abstract MenuBarAbstract(MenuBar) from MenuBar to MenuBar {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.MenuBar {
-        var menuBar = sunaba.ui.MenuBar.toMenuBar(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.MenuBar {
+        var menuBar = bxtk.ui.MenuBar.toMenuBar(element);
         if (menuBar.isNull()) {
             return null;
         }

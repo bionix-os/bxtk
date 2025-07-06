@@ -1,12 +1,12 @@
-package sunaba.ui;
+package bxtk.ui;
 
-import sunaba.core.Dictionary;
-import sunaba.core.Event;
-import sunaba.core.Color;
-import sunaba.core.Resource;
-import sunaba.core.Variant;
-import sunaba.core.Vector2;
-import sunaba.core.Element;
+import bxtk.core.Dictionary;
+import bxtk.core.Event;
+import bxtk.core.Color;
+import bxtk.core.Resource;
+import bxtk.core.Variant;
+import bxtk.core.Vector2;
+import bxtk.core.Element;
 
 @:native("CodeEdit")
 extern class CodeEdit extends TextEdit {

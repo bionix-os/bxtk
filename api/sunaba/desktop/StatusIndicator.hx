@@ -1,9 +1,9 @@
-package sunaba.desktop;
+package bxtk.desktop;
 
-import sunaba.core.Element;
-import sunaba.core.Texture2D;
-import sunaba.core.Event;
-import sunaba.core.Rect2;
+import bxtk.core.Element;
+import bxtk.core.Texture2D;
+import bxtk.core.Event;
+import bxtk.core.Rect2;
 
 @:native("StatusIndicator")
 extern class StatusIndicator extends Element {

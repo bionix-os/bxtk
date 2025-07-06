@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract PinJointFlag(Int) from Int to Int {
 	var angularLimitEnabled = 0;

@@ -1,4 +1,4 @@
-package sunaba;
+package bxtk;
 
 enum abstract BoneAxis(Int) from Int to Int {
 	var plusX = 0;

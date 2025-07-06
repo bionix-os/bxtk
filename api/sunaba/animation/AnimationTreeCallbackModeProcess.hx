@@ -1,4 +1,4 @@
-package sunaba..animation;
+package bxtk..animation;
 
 enum abstract AnimationTreeCallbackModeProcess(Int) from Int to Int {
 	var physics = 0;

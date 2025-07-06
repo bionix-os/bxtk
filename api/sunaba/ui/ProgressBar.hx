@@ -1,4 +1,4 @@
-package sunaba.ui;
+package bxtk.ui;
 
 @:native("ProgressBar")
 extern class ProgressBar extends Range {
@@ -7,13 +7,13 @@ extern class ProgressBar extends Range {
     public var indeterminate: Bool;
     public var showPercentage: Bool;
     @:native("cast")
-    public static function toProgressBar(obj: Dynamic): sunaba.ui.ProgressBar;
+    public static function toProgressBar(obj: Dynamic): bxtk.ui.ProgressBar;
 }
 
 abstract ProgressBarAbstract(ProgressBar) from ProgressBar to ProgressBar {
     @:from
-    public static function fromElement(element: sunaba.core.Element): sunaba.ui.ProgressBar {
-        var progressBar = sunaba.ui.ProgressBar.toProgressBar(element);
+    public static function fromElement(element: bxtk.core.Element): bxtk.ui.ProgressBar {
+        var progressBar = bxtk.ui.ProgressBar.toProgressBar(element);
         if (progressBar.isNull()) {
             return null;
         }
